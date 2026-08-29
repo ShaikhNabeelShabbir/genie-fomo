@@ -16,15 +16,22 @@ type Suggestion = {
 export default function SearchBar({
   onSubmit,
   busy,
+  seed = "",
 }: {
   onSubmit: (query: string) => void;
   busy: boolean;
+  /** Prefills the box when a lookup is kicked off from elsewhere (e.g. /?q=handle). */
+  seed?: string;
 }) {
   const [value, setValue] = useState("");
   const [items, setItems] = useState<Suggestion[]>([]);
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(-1);
   const box = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (seed) setValue(seed);
+  }, [seed]);
 
   useEffect(() => {
     const q = value.trim();

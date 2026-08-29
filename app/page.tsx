@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
+import Link from "next/link";
 import SearchBar from "@/components/SearchBar";
 import TraderCard from "@/components/TraderCard";
 import TransfersTable from "@/components/TransfersTable";
@@ -15,6 +16,7 @@ export default function Home() {
   const [data, setData] = useState<LookupResult | null>(null);
   const [top, setTop] = useState<Suggestion[]>([]);
   const [total, setTotal] = useState(0);
+  const [seed, setSeed] = useState("");
 
   useEffect(() => {
     fetch("/api/traders?limit=6")
@@ -46,9 +48,19 @@ export default function Home() {
     }
   }, []);
 
+  useEffect(() => {
+    // /?q=handle — how the directory page hands a trader over
+    const q = new URLSearchParams(window.location.search).get("q");
+    if (q) {
+      setSeed(q);
+      lookup(q);
+    }
+  }, [lookup]);
+
   return (
     <main className="mx-auto w-full max-w-6xl px-5 py-10">
-      <header className="mb-8">
+      <header className="mb-8 flex flex-wrap items-end gap-4">
+        <div>
         <h1 className="text-2xl font-semibold tracking-tight">
           genie<span className="text-glow">·</span>fomo
         </h1>
@@ -57,9 +69,16 @@ export default function Home() {
           and Robinhood Chain.{" "}
           {total > 0 && <span className="text-mute/70">{total} traders indexed.</span>}
         </p>
+        </div>
+        <Link
+          href="/traders"
+          className="ml-auto rounded-xl border border-edge px-4 py-2 text-sm font-medium text-mute transition hover:border-glow/50 hover:text-white"
+        >
+          Browse directory →
+        </Link>
       </header>
 
-      <SearchBar onSubmit={lookup} busy={busy} />
+      <SearchBar onSubmit={lookup} busy={busy} seed={seed} />
 
       {!data && !error && !busy && top.length > 0 && (
         <section className="mt-8">
