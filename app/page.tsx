@@ -136,12 +136,16 @@ export default function Home() {
             </button>
           </div>
 
-          <TransfersTable
-            transfers={data.transfers}
-            chains={data.chains}
-            handle={data.trader?.handle ?? data.wallet}
-            pulledAt={data.pulledAt}
-          />
+          {/* Nothing to filter or export when the wallet is empty — the summary line above
+              already says "0 transfers", so the table would only render chrome. */}
+          {data.transfers.length > 0 && (
+            <TransfersTable
+              transfers={data.transfers}
+              chains={data.chains}
+              handle={data.trader?.handle ?? data.wallet}
+              pulledAt={data.pulledAt}
+            />
+          )}
         </section>
       )}
     </main>
