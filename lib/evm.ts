@@ -1,5 +1,14 @@
 import type { ChainKey, ChainResult, Transfer } from "./types";
 import { CHAINS } from "./evm.client";
+import { hasBitqueryKey, pullBitqueryTransfers } from "./bitquery";
+
+/**
+ * Etherscan's free tier refuses these two chains outright, and there is no free
+ * explorer or RPC alternative for them (Blockscout has no BSC instance, its Base one
+ * is unreliable, public RPCs need an archive token). Bitquery covers both, so route
+ * them there when a key exists and fall back to Etherscan for anyone on a paid plan.
+ */
+const BITQUERY_PREFERRED: ChainKey[] = ["bsc", "base"];
 
 /**
  * Port of ether_scan1.py's pull_wallet: Etherscan V2 covers Ethereum / BSC / Base off a
@@ -142,6 +151,10 @@ export async function pullWallet(
   const settled = await Promise.all(
     entries.map(async ([chain, cfg]): Promise<{ rows: Transfer[]; result: ChainResult }> => {
       try {
+        if (BITQUERY_PREFERRED.includes(chain) && hasBitqueryKey()) {
+          const { transfers, result } = await pullBitqueryTransfers(chain, handle, address, limit);
+          return { rows: transfers, result };
+        }
         if (cfg.backend === "etherscan_v2") {
           if (!key) throw new Error("ETHERSCAN_KEY is not set");
           const rows = await pullEtherscan(chain, cfg.chainId, handle, address, limit, key);
