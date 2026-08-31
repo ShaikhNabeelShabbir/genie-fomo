@@ -65,8 +65,8 @@ export default function Home() {
           genie<span className="text-glow">·</span>fomo
         </h1>
         <p className="mt-1 text-sm text-mute">
-          Type a trader name — get their wallet and every EVM transfer across Ethereum, BSC, Base
-          and Robinhood Chain.{" "}
+          Type a trader name — we resolve the wallet they actually trade from, then pull every
+          transfer across Robinhood, Ethereum, BSC, Base and Solana.{" "}
           {total > 0 && <span className="text-mute/70">{total} traders indexed.</span>}
         </p>
         </div>
@@ -121,13 +121,14 @@ export default function Home() {
 
       {data && !busy && (
         <section className="mt-8 space-y-4">
-          <TraderCard trader={data.trader} wallet={data.wallet} />
+          <TraderCard
+            trader={data.trader}
+            evmWallet={data.evmWallet}
+            solWallet={data.solWallet}
+          />
 
           <div className="flex flex-wrap items-center gap-3 text-xs text-mute">
-            <span>
-              {data.transfers.length} transfers · resolved via {data.resolvedVia}
-            </span>
-            <span className="font-mono">{data.wallet}</span>
+            <span>{data.transfers.length} transfers · resolved via {data.resolvedVia}</span>
             <button
               onClick={() => lookup(data.query)}
               className="ml-auto rounded-lg border border-edge px-3 py-1.5 font-medium transition hover:border-glow/50 hover:text-white"
@@ -142,7 +143,7 @@ export default function Home() {
             <TransfersTable
               transfers={data.transfers}
               chains={data.chains}
-              handle={data.trader?.handle ?? data.wallet}
+              handle={data.trader?.handle ?? data.evmWallet?.address ?? "wallet"}
               pulledAt={data.pulledAt}
             />
           )}

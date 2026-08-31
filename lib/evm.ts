@@ -135,7 +135,9 @@ export async function pullWallet(
   limit = 300,
 ): Promise<{ transfers: Transfer[]; chains: ChainResult[] }> {
   const key = process.env.ETHERSCAN_KEY ?? "";
-  const entries = Object.entries(CHAINS) as [ChainKey, (typeof CHAINS)[ChainKey]][];
+  // Solana lives in CHAINS for its label/explorer only; it is fetched by lib/solana.ts.
+  const entries = (Object.entries(CHAINS) as [ChainKey, (typeof CHAINS)[ChainKey]][])
+    .filter(([, cfg]) => cfg.backend !== "helius");
 
   const settled = await Promise.all(
     entries.map(async ([chain, cfg]): Promise<{ rows: Transfer[]; result: ChainResult }> => {
@@ -144,6 +146,9 @@ export async function pullWallet(
           if (!key) throw new Error("ETHERSCAN_KEY is not set");
           const rows = await pullEtherscan(chain, cfg.chainId, handle, address, limit, key);
           return { rows, result: { chain, count: rows.length, error: null } };
+        }
+        if (cfg.backend !== "blockscout") {
+          throw new Error(`${chain} is not fetched here`);
         }
         const rows = await pullBlockscout(chain, cfg.host, handle, address, limit);
         return { rows, result: { chain, count: rows.length, error: null } };

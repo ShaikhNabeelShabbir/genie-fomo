@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import type { Trader } from "@/lib/types";
+import { isUsable } from "@/lib/types";
 import { compact, shortAddr, usd } from "@/lib/format";
 
 type SortKey = "rank" | "pnl" | "name" | "volume";
@@ -89,7 +90,7 @@ export default function TraderList({ traders }: { traders: Trader[] }) {
               <tr className="border-b border-edge text-left text-[10px] uppercase tracking-wider text-mute">
                 <th className="px-4 py-2.5 font-semibold">#</th>
                 <th className="px-4 py-2.5 font-semibold">Trader</th>
-                <th className="px-4 py-2.5 font-semibold">EVM wallet</th>
+                <th className="px-4 py-2.5 font-semibold">Trading wallet</th>
                 <th className="px-4 py-2.5 text-right font-semibold">PnL (30d)</th>
                 <th className="px-4 py-2.5 text-right font-semibold">Volume</th>
                 <th className="px-4 py-2.5" />
@@ -119,7 +120,31 @@ export default function TraderList({ traders }: { traders: Trader[] }) {
                     </div>
                   </td>
                   <td className="px-4 py-2.5">
-                    <CopyAddr value={t.evm} />
+                    {/* The resolved address is the one worth showing — fomo's own
+                        evm/sol fields are provisioned wallets that hold nothing. */}
+                    {isUsable(t.resolution) && t.resolved_evm ? (
+                      <div className="flex items-center gap-2">
+                        <CopyAddr value={t.resolved_evm} />
+                        <span
+                          title={`EVM ${t.resolution!.confidence}`}
+                          className={`size-1.5 shrink-0 rounded-full ${
+                            t.resolution!.confidence === "confirmed" ? "bg-up" : "bg-glow"
+                          }`}
+                        />
+                      </div>
+                    ) : isUsable(t.sol_resolution) && t.resolved_sol ? (
+                      <div className="flex items-center gap-2">
+                        <CopyAddr value={t.resolved_sol} />
+                        <span
+                          title={`Solana ${t.sol_resolution!.confidence}`}
+                          className={`size-1.5 shrink-0 rounded-full ${
+                            t.sol_resolution!.confidence === "confirmed" ? "bg-up" : "bg-glow"
+                          }`}
+                        />
+                      </div>
+                    ) : (
+                      <span className="text-xs text-mute/60">unresolved</span>
+                    )}
                   </td>
                   <td
                     className={`px-4 py-2.5 text-right font-medium tabular-nums ${

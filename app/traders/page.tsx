@@ -1,6 +1,7 @@
 import Link from "next/link";
 import TraderList from "@/components/TraderList";
 import { traders } from "@/lib/directory";
+import { isUsable } from "@/lib/types";
 import { usd } from "@/lib/format";
 
 export const dynamic = "force-dynamic";
@@ -12,7 +13,9 @@ export const metadata = {
 export default function TradersPage() {
   const list = traders();
   const totalPnl = list.reduce((sum, t) => sum + t.pnl, 0);
-  const withWallet = list.filter((t) => t.evm).length;
+  const resolved = list.filter(
+    (t) => isUsable(t.resolution) || isUsable(t.sol_resolution),
+  ).length;
 
   return (
     <main className="mx-auto w-full max-w-6xl px-5 py-10">

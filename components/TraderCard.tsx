@@ -1,8 +1,55 @@
 "use client";
 
 import { useState } from "react";
-import type { Trader } from "@/lib/types";
+import type { ScannedWallet, Trader } from "@/lib/types";
 import { compact, shortAddr, usd } from "@/lib/format";
+
+/** How much the resolver trusts this address, and why it matters: `leaderboard` means we
+ *  fell back to fomo's provisioned wallet, which holds nothing and will look empty. */
+function ConfidenceBadge({ w }: { w: ScannedWallet }) {
+  const tone =
+    w.source === "resolved"
+      ? w.confidence === "confirmed"
+        ? "border-up/50 bg-up/10 text-up"
+        : "border-glow/50 bg-glow/10 text-glow"
+      : "border-down/40 bg-down/10 text-down";
+  const label =
+    w.source === "resolved"
+      ? w.confidence === "confirmed"
+        ? "verified on 2+ tokens"
+        : "likely match"
+      : w.source === "address-input"
+        ? "as entered"
+        : `unresolved — fomo wallet (${w.confidence})`;
+  return (
+    <span className={`rounded-md border px-1.5 py-0.5 text-[10px] font-semibold ${tone}`}>
+      {label}
+    </span>
+  );
+}
+
+function WalletRow({ label, w }: { label: string; w: ScannedWallet | null }) {
+  const [copied, setCopied] = useState(false);
+  if (!w?.address) return null;
+  return (
+    <div className="flex flex-wrap items-center gap-2">
+      <button
+        onClick={() => {
+          navigator.clipboard?.writeText(w.address);
+          setCopied(true);
+          setTimeout(() => setCopied(false), 1200);
+        }}
+        title={w.address}
+        className="group flex items-center gap-2 rounded-lg border border-edge bg-black/30 px-3 py-1.5 transition hover:border-glow/50"
+      >
+        <span className="text-[10px] font-semibold uppercase tracking-wider text-mute">{label}</span>
+        <span className="font-mono text-xs">{shortAddr(w.address)}</span>
+        <span className="text-[10px] text-mute group-hover:text-glow">{copied ? "copied" : "copy"}</span>
+      </button>
+      <ConfidenceBadge w={w} />
+    </div>
+  );
+}
 
 function Copyable({ label, value }: { label: string; value: string }) {
   const [copied, setCopied] = useState(false);
@@ -39,12 +86,20 @@ function Stat({ label, value, tone }: { label: string; value: string; tone?: "up
   );
 }
 
-export default function TraderCard({ trader, wallet }: { trader: Trader | null; wallet: string }) {
+export default function TraderCard({
+  trader,
+  evmWallet,
+  solWallet,
+}: {
+  trader: Trader | null;
+  evmWallet: ScannedWallet | null;
+  solWallet: ScannedWallet | null;
+}) {
   if (!trader) {
     return (
       <div className="rounded-2xl border border-edge bg-panel p-5">
         <div className="text-xs uppercase tracking-wider text-mute">Raw wallet</div>
-        <div className="mt-1 font-mono text-sm break-all">{wallet}</div>
+        <div className="mt-1 font-mono text-sm break-all">{evmWallet?.address}</div>
       </div>
     );
   }
@@ -77,10 +132,21 @@ export default function TraderCard({ trader, wallet }: { trader: Trader | null; 
           {trader.bio && (
             <p className="mt-2 max-w-2xl whitespace-pre-line text-sm text-mute">{trader.bio}</p>
           )}
-          <div className="mt-3 flex flex-wrap gap-2">
-            <Copyable label="EVM" value={trader.evm || wallet} />
-            <Copyable label="SOL" value={trader.sol} />
+          {/* The addresses we actually scanned — the resolved trading wallets, not the
+              provisioned ones fomo reports. */}
+          <div className="mt-3 space-y-2">
+            <WalletRow label="EVM" w={evmWallet} />
+            <WalletRow label="SOL" w={solWallet} />
           </div>
+
+          {(evmWallet?.source === "resolved" || solWallet?.source === "resolved") && (
+            <div className="mt-2 text-[11px] text-mute">
+              fomo lists{" "}
+              <span className="font-mono">{shortAddr(trader.evm)}</span>
+              {trader.sol && <> / <span className="font-mono">{shortAddr(trader.sol)}</span></>}
+              {" "}— provisioned wallets that hold none of the positions above.
+            </div>
+          )}
         </div>
       </div>
 

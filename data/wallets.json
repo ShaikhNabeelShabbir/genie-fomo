@@ -26,7 +26,17 @@
           "pnl": 96489508.56005558
         }
       ],
-      "rank": 1
+      "rank": 1,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "DueProudCrab",
@@ -61,7 +71,33 @@
           "pnl": -1.8951868833757406
         }
       ],
-      "rank": 2
+      "rank": 2,
+      "resolved_evm": "0x238a358808379702088667322f80ac48bad5e6c4",
+      "resolution": {
+        "confidence": "collision",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb86abcb37c3a4b64f74f59301aff131a1becc787",
+            "reported": 3855.774564477811,
+            "onchain": 3879.182917378445,
+            "off_by": 0.006070985870462599,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.006070985870462599,
+        "candidates_considered": 1,
+        "shared_with": [
+          "Rvcoobass",
+          "tsephello",
+          "alexdl"
+        ]
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "tsephello",
@@ -96,7 +132,33 @@
           "pnl": -2.0720700000000005
         }
       ],
-      "rank": 3
+      "rank": 3,
+      "resolved_evm": "0x238a358808379702088667322f80ac48bad5e6c4",
+      "resolution": {
+        "confidence": "collision",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb86abcb37c3a4b64f74f59301aff131a1becc787",
+            "reported": 3854.13831321857,
+            "onchain": 3879.182917378445,
+            "off_by": 0.006498107261480236,
+            "band": 0.15
+          }
+        ],
+        "best_off_by": 0.006498107261480236,
+        "candidates_considered": 5,
+        "shared_with": [
+          "Rvcoobass",
+          "DueProudCrab",
+          "alexdl"
+        ]
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "alexdl",
@@ -140,7 +202,33 @@
           "pnl": 2.0846630000000017
         }
       ],
-      "rank": 4
+      "rank": 4,
+      "resolved_evm": "0x238a358808379702088667322f80ac48bad5e6c4",
+      "resolution": {
+        "confidence": "collision",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb86abcb37c3a4b64f74f59301aff131a1becc787",
+            "reported": 3849.205201077249,
+            "onchain": 3879.182917378445,
+            "off_by": 0.007788027588865936,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.007788027588865936,
+        "candidates_considered": 2,
+        "shared_with": [
+          "Rvcoobass",
+          "DueProudCrab",
+          "tsephello"
+        ]
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      }
     },
     {
       "handle": "Shadow26001",
@@ -184,7 +272,39 @@
           "pnl": 1.5676260128103665
         }
       ],
-      "rank": 5
+      "rank": 5,
+      "resolved_evm": "0x38e636a62b3489ccc460ee76a07dced326d63e2e",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0xfb1bcb6817f7b8fa86896d3253b16aeb7bd6a5a8",
+            "reported": 5065.833841428987,
+            "onchain": 5065.833841428987,
+            "off_by": 0.0,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 2
+      },
+      "resolved_sol": "HeEC7ir3DTzSoXSGitcj9HuS1AwH7rAZZck3E1HKNkB5",
+      "sol_resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+            "reported": 4.249241,
+            "onchain": 4.248609,
+            "off_by": 0.00014873244421757247,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.00014873244421757247,
+        "candidates_considered": 1577
+      }
     },
     {
       "handle": "pechvogel777",
@@ -219,7 +339,39 @@
           "pnl": 0.024527817035388855
         }
       ],
-      "rank": 6
+      "rank": 6,
+      "resolved_evm": "0x7db8f26755bdde0d117df76efd9ad76c4f686cd3",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb86abcb37c3a4b64f74f59301aff131a1becc787",
+            "reported": 3811.174595341448,
+            "onchain": 3772.845500331268,
+            "off_by": 0.01005702941477182,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.01005702941477182,
+        "candidates_considered": 3
+      },
+      "resolved_sol": "4TP76NNyww7Hq8jHSgFU3J51YNv6ThNcZegdZFeN44Hd",
+      "sol_resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "So11111111111111111111111111111111111111112",
+            "reported": 0.105384316,
+            "onchain": 0.105325868,
+            "off_by": 0.0005546176339940623,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.0005546176339940623,
+        "candidates_considered": 162
+      }
     },
     {
       "handle": "alexliftsssss",
@@ -263,7 +415,36 @@
           "pnl": -13.139633704463185
         }
       ],
-      "rank": 7
+      "rank": 7,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "no-evm-holdings",
+        "matches": []
+      },
+      "resolved_sol": "J7JYkj3wLY2bRV1tBh4tTtgNxzRnGE6Krsfcqj7oUPj7",
+      "sol_resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+            "reported": 176.242665,
+            "onchain": 200.131838,
+            "off_by": 0.1355470481565857,
+            "source": "das"
+          },
+          {
+            "chain": "solana",
+            "token": "FW9p66Bsgdp5fNYdfEuseNBin8Zw3Ziqm5R1jHmXpump",
+            "reported": 36468.450227,
+            "onchain": 41375.932425,
+            "off_by": 0.13456788449887747,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.13456788449887747,
+        "candidates_considered": 1386
+      }
     },
     {
       "handle": "RoughManyKrill",
@@ -307,7 +488,28 @@
           "pnl": -2.173954064340867
         }
       ],
-      "rank": 8
+      "rank": 8,
+      "resolved_evm": "0xc50083e5b725ad2cbeceb7df1db947ecb2e724f1",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xbeea1d618e533a387d941f58a7d4c9b7bd377777",
+            "reported": 223.62531142248136,
+            "onchain": 223.63141435795185,
+            "off_by": 2.729089758074986e-05,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 2.729089758074986e-05,
+        "candidates_considered": 9
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "Legend503",
@@ -351,7 +553,28 @@
           "pnl": 0.012282502032331704
         }
       ],
-      "rank": 9
+      "rank": 9,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "GENju48fYtqGCGLhEXRW2jqPbQzbjJmVb6eGALgyQxTP",
+      "sol_resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+            "reported": 6.307e-05,
+            "onchain": 6.308e-05,
+            "off_by": 0.00015855398763270684,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.00015855398763270684,
+        "candidates_considered": 751
+      }
     },
     {
       "handle": "KPiscopos19732",
@@ -395,7 +618,28 @@
           "pnl": -0.16739314009332973
         }
       ],
-      "rank": 10
+      "rank": 10,
+      "resolved_evm": "0xfea7c8e14c0e04d7d4d8cd8b87918b3b3d442a71",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0xd18528b39da6464b3662c331a52181ecb15b1e18",
+            "reported": 3845.838897185942,
+            "onchain": 3845.7476750181104,
+            "off_by": 2.3719705965465832e-05,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 2.3719705965465832e-05,
+        "candidates_considered": 2
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "soupierscarab",
@@ -439,7 +683,39 @@
           "pnl": -35.44485325464406
         }
       ],
-      "rank": 11
+      "rank": 11,
+      "resolved_evm": "0xe5e5b2655d73d23e8e43a7b55d08b15c3dbe57d7",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+            "reported": 373.725239035271,
+            "onchain": 373.6535001841467,
+            "off_by": 0.00019195613148704084,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.00019195613148704084,
+        "candidates_considered": 5
+      },
+      "resolved_sol": "5rcuEC8neSPNc2SZaTFBr4EW5LcbkouF4R8ub4t9nrcu",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "EpXtn6xGoZ4Y45vRjiDUHSCGbBoJD5FaEqZbF98YswH1",
+            "reported": 266683.947496,
+            "onchain": 266683.947496,
+            "off_by": 0.0,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 60
+      }
     },
     {
       "handle": "8igMac8uddha",
@@ -483,7 +759,36 @@
           "pnl": -63.10768206566047
         }
       ],
-      "rank": 12
+      "rank": 12,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "no-evm-holdings",
+        "matches": []
+      },
+      "resolved_sol": "9SxDadzDEqW366J4uGTwQ577bL19XANkSxAY5RzgkHmE",
+      "sol_resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "DuVgdHeEk7ejWPxWY5G3PQA99oEGGLmnbWuWWxpEpump",
+            "reported": 502115.970665,
+            "onchain": 502115.970665,
+            "off_by": 0.0,
+            "source": "das"
+          },
+          {
+            "chain": "solana",
+            "token": "FTaTkkxXyJ9Ffr9PRYC1wYCFmYv8TG6gEqvxkV7KTRiX",
+            "reported": 1002218.951544,
+            "onchain": 1002218.951544,
+            "off_by": 0.0,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 75
+      }
     },
     {
       "handle": "Morris",
@@ -527,7 +832,47 @@
           "pnl": -0.45925846960954464
         }
       ],
-      "rank": 13
+      "rank": 13,
+      "resolved_evm": "0xef136ffcbe83573daedc636f67990ccc79b5652a",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb86abcb37c3a4b64f74f59301aff131a1becc787",
+            "reported": 1877.890203198375,
+            "onchain": 1880.53684759304,
+            "off_by": 0.0014093712135870458,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0014093712135870458,
+        "candidates_considered": 1
+      },
+      "resolved_sol": "4RxspfZn5477XAobEpTuzMuy5WQTT7GrfmtYxDd6Tv5C",
+      "sol_resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+            "reported": 1943.788776,
+            "onchain": 2061.319028,
+            "off_by": 0.06046451829084941,
+            "source": "das"
+          },
+          {
+            "chain": "solana",
+            "token": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+            "reported": 7.209472,
+            "onchain": 6.544895,
+            "off_by": 0.0921810917637241,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.06046451829084941,
+        "candidates_considered": 1643
+      }
     },
     {
       "handle": "CHUNKZ1",
@@ -571,7 +916,28 @@
           "pnl": 27.850188140962224
         }
       ],
-      "rank": 14
+      "rank": 14,
+      "resolved_evm": "0xcd99b33e5973c73682f73ffadcfbb8f318f7d630",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xbeea1d618e533a387d941f58a7d4c9b7bd377777",
+            "reported": 571.674351431681,
+            "onchain": 571.3747131203962,
+            "off_by": 0.000524141603579641,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.000524141603579641,
+        "candidates_considered": 12
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "grilledcheese",
@@ -615,7 +981,39 @@
           "pnl": 0.41789416778032906
         }
       ],
-      "rank": 15
+      "rank": 15,
+      "resolved_evm": "0xc06ebbefd94032b85424d51906e2a335efae264b",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb86abcb37c3a4b64f74f59301aff131a1becc787",
+            "reported": 1450.703176193021,
+            "onchain": 1434.458395967527,
+            "off_by": 0.011197866312062548,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.011197866312062548,
+        "candidates_considered": 1
+      },
+      "resolved_sol": "EogGNs8M5knpGjzSbJvZ2GtMacmmjbF3j7B7CoCbe8YM",
+      "sol_resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+            "reported": 190.930993,
+            "onchain": 191.002253,
+            "off_by": 0.00037322384847176285,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.00037322384847176285,
+        "candidates_considered": 1264
+      }
     },
     {
       "handle": "maseace18",
@@ -641,7 +1039,17 @@
           "pnl": 0.9090620000000005
         }
       ],
-      "rank": 16
+      "rank": 16,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "no-evm-holdings",
+        "matches": []
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "trueghost",
@@ -676,7 +1084,28 @@
           "pnl": -1.2745896835548591
         }
       ],
-      "rank": 17
+      "rank": 17,
+      "resolved_evm": "0x946c426e1a712fdcd61784edf2ae091aefc17882",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0xd5f1afea47b1a9eab414d2ee740cf1d6d039e725",
+            "reported": 397.45519321267295,
+            "onchain": 397.4614727974989,
+            "off_by": 1.5799478615948078e-05,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 1.5799478615948078e-05,
+        "candidates_considered": 5
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "gageprate",
@@ -702,7 +1131,28 @@
           "pnl": 27756658.85186977
         }
       ],
-      "rank": 18
+      "rank": 18,
+      "resolved_evm": "0x167d56e2d26c9158053ff2df12411984a623c842",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb86abcb37c3a4b64f74f59301aff131a1becc787",
+            "reported": 1120.138727214452,
+            "onchain": 1115.631519610224,
+            "off_by": 0.004023794102215012,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.004023794102215012,
+        "candidates_considered": 2
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "Roughly3_5",
@@ -746,7 +1196,39 @@
           "pnl": -4.460259779894017
         }
       ],
-      "rank": 19
+      "rank": 19,
+      "resolved_evm": "0x04c6132b8358046f393a4e9c4925148be966f4db",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x77061b45c5e4d440bd681b5f72bd0f4231a6fc04",
+            "reported": 6146.971044067734,
+            "onchain": 6122.501926368439,
+            "off_by": 0.003980678861812617,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.003980678861812617,
+        "candidates_considered": 4
+      },
+      "resolved_sol": "CJ8LoQz2tLpe3qbDgThcpmmmdHFUrxrTwcPbSLGpToVy",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+            "reported": 10025.308665,
+            "onchain": 10025.308665,
+            "off_by": 0.0,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 1693
+      }
     },
     {
       "handle": "Ryxx",
@@ -790,7 +1272,39 @@
           "pnl": -0.5231672651215559
         }
       ],
-      "rank": 20
+      "rank": 20,
+      "resolved_evm": "0xeaf9dd9002e6dd5a9bbbb90d10d75e5f052523bc",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb86abcb37c3a4b64f74f59301aff131a1becc787",
+            "reported": 732.056609363414,
+            "onchain": 732.056609363414,
+            "off_by": 0.0,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 1
+      },
+      "resolved_sol": "BH46XojSiSC2JxNmEKZKw3oZWj3VzWjU666xzjsoG7tp",
+      "sol_resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "24GWZn5HerwLTVoZuC3H7Kxg6jLFMvroA1hTU4uWpump",
+            "reported": 18585.720427,
+            "onchain": 18565.783461,
+            "off_by": 0.0010727034272525766,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.0010727034272525766,
+        "candidates_considered": 143
+      }
     },
     {
       "handle": "Ak407",
@@ -825,7 +1339,28 @@
           "pnl": -1.8263300000000007
         }
       ],
-      "rank": 21
+      "rank": 21,
+      "resolved_evm": "0x3e07be15370d8b12d80a159a7ef14b9e51869497",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb86abcb37c3a4b64f74f59301aff131a1becc787",
+            "reported": 985.89372559517,
+            "onchain": 970.978128545489,
+            "off_by": 0.015129011030754607,
+            "band": 0.15
+          }
+        ],
+        "best_off_by": 0.015129011030754607,
+        "candidates_considered": 5
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "007D",
@@ -869,7 +1404,28 @@
           "pnl": -0.08685800000000053
         }
       ],
-      "rank": 22
+      "rank": 22,
+      "resolved_evm": "0x969c351ab7a4f708c5c9aaa9c3184b52599ea295",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xfe189e97832da1573e4e4ff034f4ffc3a15c7777",
+            "reported": 82.1424911181956,
+            "onchain": 82.09706356287707,
+            "off_by": 0.0005530335725168033,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0005530335725168033,
+        "candidates_considered": 3
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "blackfog47",
@@ -913,7 +1469,39 @@
           "pnl": -40.7895810658232
         }
       ],
-      "rank": 23
+      "rank": 23,
+      "resolved_evm": "0x4cbc5922406689dc9131ef5318070c15c2156dc0",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb86abcb37c3a4b64f74f59301aff131a1becc787",
+            "reported": 812.399776521588,
+            "onchain": 808.62916278,
+            "off_by": 0.004641327891216899,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.004641327891216899,
+        "candidates_considered": 1
+      },
+      "resolved_sol": "FxJfqcBxJfLMzKwkto2u1WroNHgBUPtPjdTyRBcywAtK",
+      "sol_resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+            "reported": 1841.998047418,
+            "onchain": 1841.930107972,
+            "off_by": 3.688356027037496e-05,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 3.688356027037496e-05,
+        "candidates_considered": 1179
+      }
     },
     {
       "handle": "exdous",
@@ -957,7 +1545,39 @@
           "pnl": -1.7240792933717979
         }
       ],
-      "rank": 24
+      "rank": 24,
+      "resolved_evm": "0x8d83277f920a05d8adb4ad06fde3613e63660ab1",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb86abcb37c3a4b64f74f59301aff131a1becc787",
+            "reported": 762.332358629627,
+            "onchain": 762.332358629627,
+            "off_by": 0.0,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 5
+      },
+      "resolved_sol": "2QrXRoMrF1UDmzVYmbuWz1hBx4SjkLdrUewzhtYrD7Jd",
+      "sol_resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+            "reported": 66.612299,
+            "onchain": 66.58788,
+            "off_by": 0.000366583954713748,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.000366583954713748,
+        "candidates_considered": 2070
+      }
     },
     {
       "handle": "manu46",
@@ -1001,7 +1621,28 @@
           "pnl": -0.02342907294237213
         }
       ],
-      "rank": 25
+      "rank": 25,
+      "resolved_evm": "0xb6f4f1a288b0b3fc810fdd0b6191b7c0ed7feb7a",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb86abcb37c3a4b64f74f59301aff131a1becc787",
+            "reported": 759.642196428805,
+            "onchain": 759.642196428805,
+            "off_by": 0.0,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 12
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "shiihomie8",
@@ -1045,7 +1686,39 @@
           "pnl": 7.108996599546858
         }
       ],
-      "rank": 26
+      "rank": 26,
+      "resolved_evm": "0x9d916bb90b0b55b6909160ce56c0fdeac632a3ab",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb86abcb37c3a4b64f74f59301aff131a1becc787",
+            "reported": 1891.222862374621,
+            "onchain": 1885.342214356052,
+            "off_by": 0.0031094421157669616,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.0031094421157669616,
+        "candidates_considered": 2
+      },
+      "resolved_sol": "5WatUPfaFxMxwPFg7paW9tarwSPpAKWCW6zSX4QYgoxT",
+      "sol_resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+            "reported": 52.753048,
+            "onchain": 52.762753,
+            "off_by": 0.00018397041247733675,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.00018397041247733675,
+        "candidates_considered": 762
+      }
     },
     {
       "handle": "jsnaxx",
@@ -1080,7 +1753,28 @@
           "pnl": -0.062379999999999915
         }
       ],
-      "rank": 27
+      "rank": 27,
+      "resolved_evm": "0x37bb58f0b8e8a8ebf22a574483bc96eb021bbbf2",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0xee5576fa1bcaa380e591d01245f406f3f384eb01",
+            "reported": 1283.638681518366,
+            "onchain": 1385.0663652875544,
+            "off_by": 0.07901575827335898,
+            "band": 0.15
+          }
+        ],
+        "best_off_by": 0.07901575827335898,
+        "candidates_considered": 5
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "AloneMassFrog",
@@ -1124,7 +1818,39 @@
           "pnl": 3.786000934373542
         }
       ],
-      "rank": 28
+      "rank": 28,
+      "resolved_evm": "0xe01619fe269c4f9136c706c3e5c98abe807474c1",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb86abcb37c3a4b64f74f59301aff131a1becc787",
+            "reported": 757.970062433323,
+            "onchain": 757.882438920655,
+            "off_by": 0.00011560286746256822,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.00011560286746256822,
+        "candidates_considered": 3
+      },
+      "resolved_sol": "ADAW3aU9adkTjeuoaikS2p8aV6qwLEiEEj1VT3KP21RD",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump",
+            "reported": 14032.955581,
+            "onchain": 14030.156473,
+            "off_by": 0.0001994667469617689,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.0001994667469617689,
+        "candidates_considered": 162
+      }
     },
     {
       "handle": "chitoto",
@@ -1168,7 +1894,28 @@
           "pnl": -8.027940061091261
         }
       ],
-      "rank": 29
+      "rank": 29,
+      "resolved_evm": "0xeceb56bbd74d1cf557985edd69648c44df115f45",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb86abcb37c3a4b64f74f59301aff131a1becc787",
+            "reported": 757.488939992817,
+            "onchain": 757.488939992817,
+            "off_by": 0.0,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 3
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "WarAq4473",
@@ -1203,7 +1950,28 @@
           "pnl": -0.034228999999999905
         }
       ],
-      "rank": 30
+      "rank": 30,
+      "resolved_evm": "0xf562df754f13b637b27d2867d2020c9c7d681e7a",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb86abcb37c3a4b64f74f59301aff131a1becc787",
+            "reported": 2557.794758745436,
+            "onchain": 2555.37768952,
+            "off_by": 0.0009449816945522323,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0009449816945522323,
+        "candidates_considered": 1
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "Siamongo",
@@ -1247,7 +2015,39 @@
           "pnl": 1.1573876222890704
         }
       ],
-      "rank": 31
+      "rank": 31,
+      "resolved_evm": "0xf784aa7788c9d4268d409cfeef3899be526be3fb",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb86abcb37c3a4b64f74f59301aff131a1becc787",
+            "reported": 749.713917332612,
+            "onchain": 749.713917332612,
+            "off_by": 0.0,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 3
+      },
+      "resolved_sol": "EeWfcFng11YTnfoA8KNhrGpuALx3F7mP6fn4dyhnabev",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+            "reported": 58.837749,
+            "onchain": 58.837749,
+            "off_by": 0.0,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 1008
+      }
     },
     {
       "handle": "dbutta",
@@ -1273,7 +2073,17 @@
           "pnl": -0.0787939999999998
         }
       ],
-      "rank": 32
+      "rank": 32,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "no-evm-holdings",
+        "matches": []
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "ScarySlimLynx",
@@ -1317,7 +2127,28 @@
           "pnl": 1.333254843804942
         }
       ],
-      "rank": 33
+      "rank": 33,
+      "resolved_evm": "0xf4ce68bfca69adb08d53a88402a2fd3fd851ce29",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+            "reported": 35.77855526698366,
+            "onchain": 35.785863100560476,
+            "off_by": 0.00020425177937693164,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.00020425177937693164,
+        "candidates_considered": 11
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "fourzzzz",
@@ -1343,7 +2174,28 @@
           "pnl": 18656818.37972372
         }
       ],
-      "rank": 34
+      "rank": 34,
+      "resolved_evm": "0x4f7b8d876268dfcf7bccfe97d0ba5ff7ac7de07b",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb86abcb37c3a4b64f74f59301aff131a1becc787",
+            "reported": 752.908514896597,
+            "onchain": 752.908514896597,
+            "off_by": 0.0,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 2
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "YappyColdBird",
@@ -1387,7 +2239,39 @@
           "pnl": 0.10644457419433509
         }
       ],
-      "rank": 35
+      "rank": 35,
+      "resolved_evm": "0x5a442d15a03c8a4a71e1720a918039e642806d36",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0xd18528b39da6464b3662c331a52181ecb15b1e18",
+            "reported": 98673.66216702486,
+            "onchain": 98677.61291391256,
+            "off_by": 4.0038514847161145e-05,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 4.0038514847161145e-05,
+        "candidates_considered": 6
+      },
+      "resolved_sol": "2YAWs2NFEoou8LEfMo6mN1hdkApdzreuDJ5SvKBxwubx",
+      "sol_resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "So11111111111111111111111111111111111111112",
+            "reported": 0.02733954,
+            "onchain": 0.027315909,
+            "off_by": 0.000864352509222893,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.000864352509222893,
+        "candidates_considered": 200
+      }
     },
     {
       "handle": "TameXericUrial",
@@ -1422,7 +2306,39 @@
           "pnl": 2.228789180111198
         }
       ],
-      "rank": 36
+      "rank": 36,
+      "resolved_evm": "0xafcacb1f164290b1edcf826b8f992afc5be820cc",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb86abcb37c3a4b64f74f59301aff131a1becc787",
+            "reported": 749.57976980368,
+            "onchain": 749.57976980368,
+            "off_by": 0.0,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 3
+      },
+      "resolved_sol": "EmayF686B4JwsAWaeJngvv8v59egTt5nFFt4n2KSZpED",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "G1iBvjhZ9wpGUZdQcvhRSqjow3x6xetsnmEBBMm1pump",
+            "reported": 22354.251793,
+            "onchain": 22354.251793,
+            "off_by": 0.0,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 123
+      }
     },
     {
       "handle": "JokerPiotr",
@@ -1466,7 +2382,39 @@
           "pnl": -0.5603230000000001
         }
       ],
-      "rank": 37
+      "rank": 37,
+      "resolved_evm": "0x280a5e07688abd92ae827e98af7edb87f4bd17b1",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb86abcb37c3a4b64f74f59301aff131a1becc787",
+            "reported": 749.061315572921,
+            "onchain": 748.849033611984,
+            "off_by": 0.00028339730876980363,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.00028339730876980363,
+        "candidates_considered": 3
+      },
+      "resolved_sol": "J1QtRFXZaiZ8RCNwBAwvSHkcwVjSDkETsMFhAVSJGMU1",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+            "reported": 505.547934,
+            "onchain": 505.560904,
+            "off_by": 2.565533182456979e-05,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 2.565533182456979e-05,
+        "candidates_considered": 1145
+      }
     },
     {
       "handle": "glry",
@@ -1501,7 +2449,28 @@
           "pnl": 2.8656135149450144
         }
       ],
-      "rank": 38
+      "rank": 38,
+      "resolved_evm": "0x96f4985e35fcbc622928285145a9bfdec09c0824",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x5317c0d077d2eeb639448939b930d49c4984b63b",
+            "reported": 357.06380738456,
+            "onchain": 377.83559421690495,
+            "off_by": 0.058173879297639404,
+            "band": 0.15
+          }
+        ],
+        "best_off_by": 0.058173879297639404,
+        "candidates_considered": 5
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "antoniy1",
@@ -1545,7 +2514,39 @@
           "pnl": 4.818182009828978
         }
       ],
-      "rank": 39
+      "rank": 39,
+      "resolved_evm": "0x6c74ebc688679d36776658277497962f62daa92d",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb86abcb37c3a4b64f74f59301aff131a1becc787",
+            "reported": 746.293202638357,
+            "onchain": 746.293202638357,
+            "off_by": 0.0,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 8
+      },
+      "resolved_sol": "56FJYjhsNwuHXznPFHK4R2ddRqkJ9JPJmdmX4eubzj6w",
+      "sol_resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+            "reported": 206.2890563,
+            "onchain": 206.356074975,
+            "off_by": 0.0003248775102376293,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.0003248775102376293,
+        "candidates_considered": 486
+      }
     },
     {
       "handle": "slw48",
@@ -1589,7 +2590,28 @@
           "pnl": 0.23304
         }
       ],
-      "rank": 40
+      "rank": 40,
+      "resolved_evm": "0x2507045b96961b0fa686fec8a3072e06566431b2",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb86abcb37c3a4b64f74f59301aff131a1becc787",
+            "reported": 744.033539450715,
+            "onchain": 744.033539450715,
+            "off_by": 0.0,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 5
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "0xR3T",
@@ -1615,7 +2637,17 @@
           "pnl": -0.11842800000000021
         }
       ],
-      "rank": 41
+      "rank": 41,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "no-evm-holdings",
+        "matches": []
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "richoffcoin",
@@ -1641,7 +2673,17 @@
           "pnl": 10996256.36019349
         }
       ],
-      "rank": 42
+      "rank": 42,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "DumbCrayonEater",
@@ -1685,7 +2727,47 @@
           "pnl": 239505.36534107992
         }
       ],
-      "rank": 43
+      "rank": 43,
+      "resolved_evm": "0x8f62a08537cede87d511aca6436274ab4ca080a3",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+            "reported": 29322551.565300036,
+            "onchain": 29322551.565300036,
+            "off_by": 0.0,
+            "band": 0.02
+          },
+          {
+            "chain": "bsc",
+            "token": "0xb0c2ab5af4028461ace3f6e1c33a4ee1404e7777",
+            "reported": 14469559.622529011,
+            "onchain": 14469559.622529011,
+            "off_by": 0.0,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 2
+      },
+      "resolved_sol": "7aJcgcbBxTawvN1VM3XF5CwuarxKQHqnW2w7yS1s6etz",
+      "sol_resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+            "reported": 10000.198225,
+            "onchain": 10000.328876,
+            "off_by": 1.3064841022137709e-05,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 1.3064841022137709e-05,
+        "candidates_considered": 103
+      }
     },
     {
       "handle": "unipcs",
@@ -1729,7 +2811,44 @@
           "pnl": 185804.93642276805
         }
       ],
-      "rank": 44
+      "rank": 44,
+      "resolved_evm": "0x0a6ebed0155edb4b21d92ad02897a626cd90119e",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+            "reported": 10957270.214782987,
+            "onchain": 10957827.4164629,
+            "off_by": 5.085223499933215e-05,
+            "band": 0.002
+          },
+          {
+            "chain": "robinhood",
+            "token": "0xe8ffd7e24187f72afb08d75b1bb13088a989a791",
+            "reported": 20400532.99710157,
+            "onchain": 20402959.692063637,
+            "off_by": 0.0001189525274859457,
+            "band": 0.002
+          },
+          {
+            "chain": "bsc",
+            "token": "0xfe189e97832da1573e4e4ff034f4ffc3a15c7777",
+            "reported": 22824543.17850699,
+            "onchain": 24956921.018885747,
+            "off_by": 0.09342477629023206,
+            "via": "balanceOf"
+          }
+        ],
+        "best_off_by": 5.085223499933215e-05,
+        "candidates_considered": 1
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "Salem1299534",
@@ -1773,7 +2892,44 @@
           "pnl": 21090.90734864006
         }
       ],
-      "rank": 45
+      "rank": 45,
+      "resolved_evm": "0xb8f305f27ccc406373de0082cc06cb1d065504ea",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+            "reported": 25282214.744922027,
+            "onchain": 25358514.779911965,
+            "off_by": 0.003017933189783665,
+            "band": 0.15
+          },
+          {
+            "chain": "robinhood",
+            "token": "0x89da5167eb1a0067f9b3e39a544ef8d4b9c41e18",
+            "reported": 21944959.696506947,
+            "onchain": 21944959.696506947,
+            "off_by": 0.0,
+            "band": 0.002
+          },
+          {
+            "chain": "robinhood",
+            "token": "0x05a8da18d08e00295348e1cfe0f37648a71a3048",
+            "reported": 19751220,
+            "onchain": 19751220.0,
+            "off_by": 0.0,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 1
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "ether_monk",
@@ -1817,7 +2973,39 @@
           "pnl": 145067.63556650892
         }
       ],
-      "rank": 46
+      "rank": 46,
+      "resolved_evm": "0x1e48c2f130a95d75b01d1caf4cec7c49c5eb2aab",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x020bfc650a365f8bb26819deaabf3e21291018b4",
+            "reported": 2000248.8924029346,
+            "onchain": 2007106.9017832873,
+            "off_by": 0.0034285780166657333,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.0034285780166657333,
+        "candidates_considered": 2
+      },
+      "resolved_sol": "7iL3nn8dijTo63FjB7qTyVQiCsMnfceLe73aRMXjazcJ",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+            "reported": 20965555.599549446,
+            "onchain": 21320504.626815416,
+            "off_by": 0.016930103549156483,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.016930103549156483,
+        "candidates_considered": 3
+      }
     },
     {
       "handle": "PoorGoat_",
@@ -1861,7 +3049,47 @@
           "pnl": 69379.22492189745
         }
       ],
-      "rank": 47
+      "rank": 47,
+      "resolved_evm": "0x7bdc9582aca6ca25e5db1f2c8e59003b880672cb",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0x6ff45323817d1d53bbb8a8dfba9245ae74057777",
+            "reported": 28359396.565923233,
+            "onchain": 29043222.240246933,
+            "off_by": 0.024112842906727716,
+            "band": 0.15
+          }
+        ],
+        "best_off_by": 0.024112842906727716,
+        "candidates_considered": 5
+      },
+      "resolved_sol": "HDixbrzwwLXczhDBk1JVrurPQsuLE8FUKnW2pucSXN3o",
+      "sol_resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+            "reported": 3835731.704302,
+            "onchain": 3754830.603785,
+            "off_by": 0.021091438805864525,
+            "source": "top20"
+          },
+          {
+            "chain": "solana",
+            "token": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+            "reported": 27075263.43961,
+            "onchain": 27348397.466242,
+            "off_by": 0.010087954536110473,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.010087954536110473,
+        "candidates_considered": 7
+      }
     },
     {
       "handle": "brrrgrrrz",
@@ -1905,7 +3133,28 @@
           "pnl": 50211.09374587541
         }
       ],
-      "rank": 48
+      "rank": 48,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "GFRjGNXY8JrGSPC46inqrH4XPdUFMDLkE1oNm1nXiPsJ",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "Hos282xmdMJHwMjhni91fNqdjDsgWjgSckxuGc1Bpump",
+            "reported": 8991718.064323,
+            "onchain": 8991718.064323,
+            "off_by": 0.0,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 10
+      }
     },
     {
       "handle": "Natan_benish",
@@ -1949,7 +3198,44 @@
           "pnl": 15291.44995125169
         }
       ],
-      "rank": 49
+      "rank": 49,
+      "resolved_evm": "0x1890e719822bc704c4f117aa4109401c2bab6f79",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+            "reported": 18469314.60014478,
+            "onchain": 18469314.600144785,
+            "off_by": 2.0170159960525613e-16,
+            "band": 0.002
+          },
+          {
+            "chain": "robinhood",
+            "token": "0x05a8da18d08e00295348e1cfe0f37648a71a3048",
+            "reported": 17631202,
+            "onchain": 17631202.0,
+            "off_by": 0.0,
+            "band": 0.002
+          },
+          {
+            "chain": "robinhood",
+            "token": "0xfe7e19cbce2f896c6c528bc355baf5a768291e18",
+            "reported": 7790717.839205341,
+            "onchain": 7790717.839205341,
+            "off_by": 0.0,
+            "via": "balanceOf"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 4
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "Quanterty",
@@ -1990,7 +3276,36 @@
           "pnl": -29989.55398883872
         }
       ],
-      "rank": 50
+      "rank": 50,
+      "resolved_evm": "0x0121525f755c9e7bbc525bba6672716ab46ced57",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "ethereum",
+            "token": "0xe172e9b6cfbeeb5593bdce3f077356fdb33af904",
+            "reported": 2293395.4229312167,
+            "onchain": 2293395.4229312167,
+            "off_by": 0.0,
+            "band": 0.002
+          },
+          {
+            "chain": "bsc",
+            "token": "0xbeea1d618e533a387d941f58a7d4c9b7bd377777",
+            "reported": 15823919.70638428,
+            "onchain": 13509104.891569467,
+            "off_by": 0.14628580388213697,
+            "via": "balanceOf"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 1
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "Aurelius0121",
@@ -2034,7 +3349,47 @@
           "pnl": -192435.29632282947
         }
       ],
-      "rank": 51
+      "rank": 51,
+      "resolved_evm": "0x0c175c6a0065ee05f871a68783d2de432a1e6cbe",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xfe189e97832da1573e4e4ff034f4ffc3a15c7777",
+            "reported": 13340948.107628703,
+            "onchain": 13340948.107628703,
+            "off_by": 0.0,
+            "band": 0.002
+          },
+          {
+            "chain": "bsc",
+            "token": "0xede00776439f9c49c592e43eee34777a51847777",
+            "reported": 32811724.986580987,
+            "onchain": 32811724.986580987,
+            "off_by": 0.0,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 1
+      },
+      "resolved_sol": "9BMzTpSo4URse1oN666pmexhdjpU1vA5p7LtroCFQdLU",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+            "reported": 13613017.477299,
+            "onchain": 13613017.477299,
+            "off_by": 0.0,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 3
+      }
     },
     {
       "handle": "notanicecat69",
@@ -2078,7 +3433,28 @@
           "pnl": 35971.057158254756
         }
       ],
-      "rank": 52
+      "rank": 52,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "7iPPqPyrqcmfenRs4xZ72ab4pyuUofXB5YaQB83WJmT9",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "Hos282xmdMJHwMjhni91fNqdjDsgWjgSckxuGc1Bpump",
+            "reported": 35396162.571099,
+            "onchain": 35491763.052826,
+            "off_by": 0.002700871359571106,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.002700871359571106,
+        "candidates_considered": 3
+      }
     },
     {
       "handle": "0xAvast",
@@ -2122,7 +3498,39 @@
           "pnl": 16037.28829691142
         }
       ],
-      "rank": 53
+      "rank": 53,
+      "resolved_evm": "0xc38f2021b6b6349b8f662b7f207d84beb7bc8308",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x020bfc650a365f8bb26819deaabf3e21291018b4",
+            "reported": 5500000,
+            "onchain": 5500000.000018478,
+            "off_by": 3.3597038550810382e-12,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 3.3597038550810382e-12,
+        "candidates_considered": 3
+      },
+      "resolved_sol": "8xL8S7P4QLdTGRquHas8NP5EVjp2qUGbmSgrkh97mvmq",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "6mJoQqcPEjiQ1hFya9oH6NBCQLhvS3mwVQWV9EcTHg9u",
+            "reported": 23889723.458432,
+            "onchain": 23889723.458432,
+            "off_by": 0.0,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 4
+      }
     },
     {
       "handle": "frogmanhaha",
@@ -2166,7 +3574,44 @@
           "pnl": 155470.40371519842
         }
       ],
-      "rank": 54
+      "rank": 54,
+      "resolved_evm": "0x14aa2a71dbb5ef87b81f92205e2699aa4aa65794",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x020bfc650a365f8bb26819deaabf3e21291018b4",
+            "reported": 7540303.30514429,
+            "onchain": 7540303.30514429,
+            "off_by": 0.0,
+            "band": 0.002
+          },
+          {
+            "chain": "robinhood",
+            "token": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+            "reported": 6884526.53665805,
+            "onchain": 6884526.53665805,
+            "off_by": 0.0,
+            "band": 0.002
+          },
+          {
+            "chain": "bsc",
+            "token": "0xfe189e97832da1573e4e4ff034f4ffc3a15c7777",
+            "reported": 11806060.643364223,
+            "onchain": 11806060.64336422,
+            "off_by": 1.577702508480579e-16,
+            "via": "balanceOf"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 6
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "AvgJoesCrypto",
@@ -2210,7 +3655,44 @@
           "pnl": 49837.40713180507
         }
       ],
-      "rank": 55
+      "rank": 55,
+      "resolved_evm": "0x06de9c48b1e639ed5c13ec8fbd4080a38e39f2d1",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+            "reported": 5584681.059480482,
+            "onchain": 5211377.903249993,
+            "off_by": 0.06684413169786557,
+            "band": 0.15
+          },
+          {
+            "chain": "robinhood",
+            "token": "0x89da5167eb1a0067f9b3e39a544ef8d4b9c41e18",
+            "reported": 22641584.48969626,
+            "onchain": 22656647.670370705,
+            "off_by": 0.0006652882743829099,
+            "band": 0.02
+          },
+          {
+            "chain": "robinhood",
+            "token": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+            "reported": 1001124.208913005,
+            "onchain": 998716.1950428451,
+            "off_by": 0.0024053097994447886,
+            "via": "balanceOf"
+          }
+        ],
+        "best_off_by": 0.0006652882743829099,
+        "candidates_considered": 6
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "Rowdy",
@@ -2251,7 +3733,39 @@
           "pnl": 241353.46003150617
         }
       ],
-      "rank": 56
+      "rank": 56,
+      "resolved_evm": "0xd5da17a84314194e348649c89a65143a061f7190",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xbeea1d618e533a387d941f58a7d4c9b7bd377777",
+            "reported": 8511201.47492349,
+            "onchain": 9003426.022274125,
+            "off_by": 0.05783255734232993,
+            "band": 0.15
+          }
+        ],
+        "best_off_by": 0.05783255734232993,
+        "candidates_considered": 5
+      },
+      "resolved_sol": "CzU8MaRcwvwUoNkwJFLbvtFWJugcEXAhDDQqNFE4ybb7",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump",
+            "reported": 10074310.480832,
+            "onchain": 10074533.329257,
+            "off_by": 2.2120464266503505e-05,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 2.2120464266503505e-05,
+        "candidates_considered": 8
+      }
     },
     {
       "handle": "inyourwalls",
@@ -2295,7 +3809,47 @@
           "pnl": -31251.88361669104
         }
       ],
-      "rank": 57
+      "rank": 57,
+      "resolved_evm": "0xefe9764acb00822338a80f907075c53f60a5781e",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+            "reported": 7470583.008654529,
+            "onchain": 7470583.008654529,
+            "off_by": 0.0,
+            "band": 0.002
+          },
+          {
+            "chain": "robinhood",
+            "token": "0xb9972ca7188e511174947e3936a5315ac7073277",
+            "reported": 20076059.913073327,
+            "onchain": 18961642.20436766,
+            "off_by": 0.05550978197569384,
+            "via": "balanceOf"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 1
+      },
+      "resolved_sol": "CBKJmhjDp7mxBYGAFWxCaPjD2BSJWpb4nQqnLd7rhSaM",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "GPzpoXpD74E2C4CJNayuoyBqPQJEsPtdse3nhntrpump",
+            "reported": 23238030.603157,
+            "onchain": 23238030.603157,
+            "off_by": 0.0,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 4
+      }
     },
     {
       "handle": "frankdegods",
@@ -2339,7 +3893,28 @@
           "pnl": -2442.685566311465
         }
       ],
-      "rank": 58
+      "rank": 58,
+      "resolved_evm": "0xf9e34df9b8d00d37cf3826d0255f124165b2e318",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0xd5f1afea47b1a9eab414d2ee740cf1d6d039e725",
+            "reported": 12767620.446645206,
+            "onchain": 12850019.536400663,
+            "off_by": 0.006453754644398746,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.006453754644398746,
+        "candidates_considered": 2
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "theveeman",
@@ -2383,7 +3958,47 @@
           "pnl": 154971.72863289402
         }
       ],
-      "rank": 59
+      "rank": 59,
+      "resolved_evm": "0x7f9500721a5845db2d5abff9c5eb1c36de2ff20f",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb0c2ab5af4028461ace3f6e1c33a4ee1404e7777",
+            "reported": 12252024.001166344,
+            "onchain": 12149508.189432101,
+            "off_by": 0.008367255216320443,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.008367255216320443,
+        "candidates_considered": 1
+      },
+      "resolved_sol": "F5hkYsi8JxjyA2JHN5CA7MbnnhWubkXB2ZQB7Gkaxqs6",
+      "sol_resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+            "reported": 3089340.487801,
+            "onchain": 3089447.608075,
+            "off_by": 3.467415599635581e-05,
+            "source": "top20"
+          },
+          {
+            "chain": "solana",
+            "token": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+            "reported": 18070426.79259318,
+            "onchain": 18070426.79259318,
+            "off_by": 0.0,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 8
+      }
     },
     {
       "handle": "SolSwizzle",
@@ -2427,7 +4042,42 @@
           "pnl": 35598.07397179463
         }
       ],
-      "rank": 60
+      "rank": 60,
+      "resolved_evm": "0xbdf739f94260ee660ba462dadbf53418867c56ca",
+      "resolution": {
+        "confidence": "collision",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x89da5167eb1a0067f9b3e39a544ef8d4b9c41e18",
+            "reported": 18484172.784395654,
+            "onchain": 18658658.9832059,
+            "off_by": 0.009439762376466593,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.009439762376466593,
+        "candidates_considered": 2,
+        "shared_with": [
+          "Drillpig_"
+        ]
+      },
+      "resolved_sol": "8ZMLeKMVAY5qyKW4tCCpDiD8D2GsYcEkXV497zLWDN5s",
+      "sol_resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump",
+            "reported": 7203438.270024,
+            "onchain": 7248456.246373,
+            "off_by": 0.006249512338619638,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.006249512338619638,
+        "candidates_considered": 6
+      }
     },
     {
       "handle": "soby0x",
@@ -2471,7 +4121,44 @@
           "pnl": 57204.15850531381
         }
       ],
-      "rank": 61
+      "rank": 61,
+      "resolved_evm": "0x0f9a7a53b36daf1f52fe7a616ea4b25c532d2fd2",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
+            "reported": 40.07483108985908,
+            "onchain": 40.06508422585908,
+            "off_by": 0.0002432165959263814,
+            "band": 0.002
+          },
+          {
+            "chain": "robinhood",
+            "token": "0x18e674231a58c239dc7daedcffe15ec3a24cff5c",
+            "reported": 9683518.415705884,
+            "onchain": 9683518.415705884,
+            "off_by": 0.0,
+            "band": 0.002
+          },
+          {
+            "chain": "robinhood",
+            "token": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+            "reported": 6090147.3943752125,
+            "onchain": 5888210.899167665,
+            "off_by": 0.03315789949419834,
+            "via": "balanceOf"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 1
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "cosby",
@@ -2515,7 +4202,36 @@
           "pnl": 25494.29363179633
         }
       ],
-      "rank": 62
+      "rank": 62,
+      "resolved_evm": "0xf1882812aacac1df9a58195dbbd2f97fe48f81f2",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+            "reported": 4205102.926225412,
+            "onchain": 4219205.655874838,
+            "off_by": 0.0033537180651331453,
+            "band": 0.02
+          },
+          {
+            "chain": "robinhood",
+            "token": "0xd7321801caae694090694ff55a9323139f043b88",
+            "reported": 12881997.711433595,
+            "onchain": 14700181.71808116,
+            "off_by": 0.14114146325564164,
+            "via": "balanceOf"
+          }
+        ],
+        "best_off_by": 0.0033537180651331453,
+        "candidates_considered": 6
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "aki11a",
@@ -2559,7 +4275,47 @@
           "pnl": -2625.5615990556325
         }
       ],
-      "rank": 63
+      "rank": 63,
+      "resolved_evm": "0x3740315ddb76c09c873eddb71fcf3e2802991abe",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+            "reported": 7359748.446437658,
+            "onchain": 7359748.446437658,
+            "off_by": 0.0,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 1
+      },
+      "resolved_sol": "85o5GZhor1ygRCzGDNRcsRCJyiQ3daGTGYHNXvCTJ4J7",
+      "sol_resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "HyZLwid1NYTyjRaKQJKmxnhATBPff67aTdy1gnwQuEAz",
+            "reported": 7132671.325788773,
+            "onchain": 7132671.325788773,
+            "off_by": 0.0,
+            "source": "das"
+          },
+          {
+            "chain": "solana",
+            "token": "HhqF5NowD4qThZBNDbgYAFvChEpAexSk1Qmu1nCzpump",
+            "reported": 9493118.831338,
+            "onchain": 9493118.831338,
+            "off_by": 0.0,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 10
+      }
     },
     {
       "handle": "change",
@@ -2603,7 +4359,28 @@
           "pnl": 22581.49562071227
         }
       ],
-      "rank": 64
+      "rank": 64,
+      "resolved_evm": "0xd2671d2bdc84cf76e97adb0fd7bb2b54f24cbde8",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0xe934e36a439c94017b64a3fece66af12099abf50",
+            "reported": 23369696.470489416,
+            "onchain": 23235374.67294103,
+            "off_by": 0.005747691148578028,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.005747691148578028,
+        "candidates_considered": 2
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "LP1111",
@@ -2647,7 +4424,44 @@
           "pnl": 1095.3122356838053
         }
       ],
-      "rank": 65
+      "rank": 65,
+      "resolved_evm": "0x1fce5a5d5b00c8a8cd80e8bdc608ebf8eb17cd7e",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0xfe7e19cbce2f896c6c528bc355baf5a768291e18",
+            "reported": 31042747.910049807,
+            "onchain": 31085065.53010478,
+            "off_by": 0.0013632047065418292,
+            "band": 0.15
+          },
+          {
+            "chain": "robinhood",
+            "token": "0xa3b6aee90017b72c0812dc1e013de70eb2917ba3",
+            "reported": 1083533576.994454,
+            "onchain": 1083533576.994454,
+            "off_by": 0.0,
+            "band": 0.002
+          },
+          {
+            "chain": "robinhood",
+            "token": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+            "reported": 8264348.121261795,
+            "onchain": 8264348.121261796,
+            "off_by": 1.1269159538662862e-16,
+            "via": "balanceOf"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 1
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "SerAvocado",
@@ -2691,7 +4505,39 @@
           "pnl": -4678.980225483912
         }
       ],
-      "rank": 66
+      "rank": 66,
+      "resolved_evm": "0x021339b32fa1b40c7773f70e5a1835a7fd01de07",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xbeea1d618e533a387d941f58a7d4c9b7bd377777",
+            "reported": 10805714.388043405,
+            "onchain": 10614110.165272329,
+            "off_by": 0.017731749691911887,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.017731749691911887,
+        "candidates_considered": 1
+      },
+      "resolved_sol": "5hAgYC8TJCcEZV7LTXAzkTrm7YL29YXyQQJPCNrG84zM",
+      "sol_resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump",
+            "reported": 22237755.239491,
+            "onchain": 20856228.178296,
+            "off_by": 0.06212529305752997,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.06212529305752997,
+        "candidates_considered": 5
+      }
     },
     {
       "handle": "CardinalSaint2",
@@ -2735,7 +4581,28 @@
           "pnl": 17288.60676597942
         }
       ],
-      "rank": 67
+      "rank": 67,
+      "resolved_evm": "0xf47a4719986c175be9b0671385c728d26e7cf67e",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+            "reported": 6000635.398425342,
+            "onchain": 5943756.887795905,
+            "off_by": 0.009478747974649938,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.009478747974649938,
+        "candidates_considered": 7
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "kyle",
@@ -2779,7 +4646,44 @@
           "pnl": 159699.15121965544
         }
       ],
-      "rank": 68
+      "rank": 68,
+      "resolved_evm": "0x39b337121494b10cffe3e581ab3281b2d62c5b08",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+            "reported": 1637043.3956081693,
+            "onchain": 1615561.3128452967,
+            "off_by": 0.013122488273984864,
+            "band": 0.02
+          },
+          {
+            "chain": "base",
+            "token": "0xb200000000000000000000cfbdf64a8706a94a01",
+            "reported": 18516403.862820692,
+            "onchain": 18448748.86888172,
+            "off_by": 0.0036537869037743653,
+            "band": 0.02
+          },
+          {
+            "chain": "robinhood",
+            "token": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+            "reported": 2735865.816068107,
+            "onchain": 2711900.698968674,
+            "off_by": 0.00875960983125795,
+            "via": "balanceOf"
+          }
+        ],
+        "best_off_by": 0.0036537869037743653,
+        "candidates_considered": 4
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "MemeKingdom",
@@ -2823,7 +4727,36 @@
           "pnl": 41100.37493443998
         }
       ],
-      "rank": 69
+      "rank": 69,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "2QQFwT3QV1LrH9vvaUiGjhpNCmGqVDxRAkmGKvjruBUS",
+      "sol_resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "4N4DnNo3qpPks9aQCkcWkzoir8tnvT6diS4TnnZibonk",
+            "reported": 15000000,
+            "onchain": 15000000.0,
+            "off_by": 0.0,
+            "source": "top20"
+          },
+          {
+            "chain": "solana",
+            "token": "9BVn3Y8tPghbnGuuuxoj2mGekqgSQV1M7nALF7brpump",
+            "reported": 25624471.522015,
+            "onchain": 25624471.522015,
+            "off_by": 0.0,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 6
+      }
     },
     {
       "handle": "picadura",
@@ -2867,7 +4800,28 @@
           "pnl": 21157.83763206081
         }
       ],
-      "rank": 70
+      "rank": 70,
+      "resolved_evm": "0xa37cd19f9a6fdcc323ba42fa498807b4212222f3",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+            "reported": 5765670.950697806,
+            "onchain": 5765670.950697806,
+            "off_by": 0.0,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 5
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "RugDalio",
@@ -2911,7 +4865,36 @@
           "pnl": 16655.53654963729
         }
       ],
-      "rank": 71
+      "rank": 71,
+      "resolved_evm": "0xaf3a73c19118409936bdea72fd975c7539f85359",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+            "reported": 3694768.6797553296,
+            "onchain": 3692140.7569898292,
+            "off_by": 0.0007112550184533883,
+            "band": 0.15
+          },
+          {
+            "chain": "robinhood",
+            "token": "0x51fb76be80ab6daaa345d818f4e06441816b4fea",
+            "reported": 10863433.829215765,
+            "onchain": 10911720.096654113,
+            "off_by": 0.0044448438861466495,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.0007112550184533883,
+        "candidates_considered": 10
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "397397",
@@ -2955,7 +4938,47 @@
           "pnl": 8060.835175252162
         }
       ],
-      "rank": 72
+      "rank": 72,
+      "resolved_evm": "0xcbaea88c17888e3c7b84117bd6ebbdbf4f95b810",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xbeea1d618e533a387d941f58a7d4c9b7bd377777",
+            "reported": 11206550.668499153,
+            "onchain": 11206550.668499155,
+            "off_by": 1.6621038929192772e-16,
+            "band": 0.15
+          },
+          {
+            "chain": "bsc",
+            "token": "0x01856bda968ddca3ae5f866a4e07405480967777",
+            "reported": 9304580.86451572,
+            "onchain": 9304580.86451572,
+            "off_by": 0.0,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 5
+      },
+      "resolved_sol": "ABhjEyjccmFTkTtqyXWkcWmvQoQSshrzSDg9U1XH9duS",
+      "sol_resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump",
+            "reported": 2000449.60862,
+            "onchain": 2000204.93185,
+            "off_by": 0.00012231088898500625,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.00012231088898500625,
+        "candidates_considered": 38
+      }
     },
     {
       "handle": "0xleo",
@@ -2987,7 +5010,17 @@
           "pnl": 32687.3641186887
         }
       ],
-      "rank": 73
+      "rank": 73,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "figaro",
@@ -3031,7 +5064,36 @@
           "pnl": 80601.02456061872
         }
       ],
-      "rank": 74
+      "rank": 74,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "5VRgqb2qbVqaWVGsM2k1b2bnPJk7up2xYbn4ziEjFgNt",
+      "sol_resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "Hos282xmdMJHwMjhni91fNqdjDsgWjgSckxuGc1Bpump",
+            "reported": 30602995.44649,
+            "onchain": 30602995.44649,
+            "off_by": 0.0,
+            "source": "top20"
+          },
+          {
+            "chain": "solana",
+            "token": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+            "reported": 4391480.53936511,
+            "onchain": 3952332.485428599,
+            "off_by": 0.09999999999999996,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 18
+      }
     },
     {
       "handle": "NachSOL",
@@ -3075,7 +5137,28 @@
           "pnl": 37962.33410959801
         }
       ],
-      "rank": 75
+      "rank": 75,
+      "resolved_evm": "0x1379cd72f35c82719abd38c3ce759c44f8ffdd1c",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x020bfc650a365f8bb26819deaabf3e21291018b4",
+            "reported": 839673.464665813,
+            "onchain": 841482.8705715179,
+            "off_by": 0.0021548923264175864,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.0021548923264175864,
+        "candidates_considered": 10
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "insentos",
@@ -3119,7 +5202,39 @@
           "pnl": 3.0749543288934427
         }
       ],
-      "rank": 76
+      "rank": 76,
+      "resolved_evm": "0x77acc36fcc41dc3bfb51441e003831c74d4ecaf0",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x020bfc650a365f8bb26819deaabf3e21291018b4",
+            "reported": 6286140.876087776,
+            "onchain": 6423128.159357303,
+            "off_by": 0.021791952482423754,
+            "band": 0.15
+          }
+        ],
+        "best_off_by": 0.021791952482423754,
+        "candidates_considered": 5
+      },
+      "resolved_sol": "5V5Kxh2V9gEYdTqY4WZGBJRpNFXExvu5AvF7qzGQo1Tq",
+      "sol_resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "So11111111111111111111111111111111111111112",
+            "reported": 0.441372652,
+            "onchain": 0.440376631,
+            "off_by": 0.0022566441203066613,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.0022566441203066613,
+        "candidates_considered": 76
+      }
     },
     {
       "handle": "loganlim_x",
@@ -3163,7 +5278,36 @@
           "pnl": 907.4616130349469
         }
       ],
-      "rank": 77
+      "rank": 77,
+      "resolved_evm": "0x8224c04a8f66557df682fd0581eb3724bd2bee07",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0x6ff45323817d1d53bbb8a8dfba9245ae74057777",
+            "reported": 21194877.82667029,
+            "onchain": 21194877.826670293,
+            "off_by": 1.7576370710541418e-16,
+            "band": 0.02
+          },
+          {
+            "chain": "robinhood",
+            "token": "0x020bfc650a365f8bb26819deaabf3e21291018b4",
+            "reported": 5064258.6678217575,
+            "onchain": 5124608.084571645,
+            "off_by": 0.011916732676659405,
+            "via": "balanceOf"
+          }
+        ],
+        "best_off_by": 1.7576370710541418e-16,
+        "candidates_considered": 4
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "lordarbiter",
@@ -3207,7 +5351,28 @@
           "pnl": -3374.309008516376
         }
       ],
-      "rank": 78
+      "rank": 78,
+      "resolved_evm": "0x712b009be8006d28738fd4810ee1440e277bae03",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+            "reported": 3405654.383729617,
+            "onchain": 3400038.4100061664,
+            "off_by": 0.0016490145771340667,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0016490145771340667,
+        "candidates_considered": 3
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "sadcrissy",
@@ -3251,7 +5416,28 @@
           "pnl": 17130.657184273918
         }
       ],
-      "rank": 79
+      "rank": 79,
+      "resolved_evm": "0x8a148712a8105d8d0b11a32226165830b77fbef7",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x862cdccb67c8a22fdb247d09a08b1dad09447777",
+            "reported": 16491063.298355812,
+            "onchain": 16724373.305515893,
+            "off_by": 0.014147663066901333,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.014147663066901333,
+        "candidates_considered": 1
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "bluntz_capital",
@@ -3295,7 +5481,28 @@
           "pnl": 207151.04997105082
         }
       ],
-      "rank": 80
+      "rank": 80,
+      "resolved_evm": "0x0c675a57cd06fd7c2c8454bc2d67687b322e587f",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+            "reported": 1448974.9676150978,
+            "onchain": 1450000.0,
+            "off_by": 0.0007074189739725897,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0007074189739725897,
+        "candidates_considered": 4
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "0xnobi",
@@ -3339,7 +5546,28 @@
           "pnl": 15321.641211467506
         }
       ],
-      "rank": 81
+      "rank": 81,
+      "resolved_evm": "0xb2f5863dec13adda9b2b7fe43f727861f36d2c05",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0xe6864e4630d4d7a0cad2e61f6bc2c0dcad777712",
+            "reported": 11505554.52221875,
+            "onchain": 11561491.566201309,
+            "off_by": 0.0048617425500471195,
+            "band": 0.15
+          }
+        ],
+        "best_off_by": 0.0048617425500471195,
+        "candidates_considered": 6
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "Pasterniq",
@@ -3383,7 +5611,28 @@
           "pnl": -1366.1284066056012
         }
       ],
-      "rank": 82
+      "rank": 82,
+      "resolved_evm": "0x44606cbbf37198128557f956947a11cca171a1c2",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x0bd7d308f8e1639fab988df18a8011f41eacad73",
+            "reported": 0.00999906574916,
+            "onchain": 0.010001871827876397,
+            "off_by": 0.00028063408990315034,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.00028063408990315034,
+        "candidates_considered": 7
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "fmpumpguy",
@@ -3427,7 +5676,39 @@
           "pnl": 9183.49570324419
         }
       ],
-      "rank": 83
+      "rank": 83,
+      "resolved_evm": "0xb0e9dcce59a1526c4277168a2505993d303f6060",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xbeea1d618e533a387d941f58a7d4c9b7bd377777",
+            "reported": 9684115.163987074,
+            "onchain": 9691217.006498374,
+            "off_by": 0.0007333496546705748,
+            "band": 0.15
+          }
+        ],
+        "best_off_by": 0.0007333496546705748,
+        "candidates_considered": 6
+      },
+      "resolved_sol": "DAejzMs5cUeCCENNvapy9KWFwzwegh7LvcgNkZ6hnf1y",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "DWrrbYP65oo33Fk83iaQVHQhytntFM1uooyJHjaxpump",
+            "reported": 6016256.31462,
+            "onchain": 6016256.31462,
+            "off_by": 0.0,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 13
+      }
     },
     {
       "handle": "Drillpig_",
@@ -3471,7 +5752,31 @@
           "pnl": 21611.203972795574
         }
       ],
-      "rank": 84
+      "rank": 84,
+      "resolved_evm": "0xbdf739f94260ee660ba462dadbf53418867c56ca",
+      "resolution": {
+        "confidence": "collision",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x5a8625d314fdd298101d87932a784b756a401e18",
+            "reported": 10089866.558908144,
+            "onchain": 10005481.555139326,
+            "off_by": 0.008363341901119257,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.008363341901119257,
+        "candidates_considered": 1,
+        "shared_with": [
+          "SolSwizzle"
+        ]
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "cryptochi3f_",
@@ -3515,7 +5820,36 @@
           "pnl": -8514.62521763221
         }
       ],
-      "rank": 85
+      "rank": 85,
+      "resolved_evm": "0xcb01c5f4697f555172bf1c2c5f52cde84a9480bb",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xccfbcd3bf85d8657a6bbd10b8c81c99f13207777",
+            "reported": 13943931.268518222,
+            "onchain": 13943931.26851822,
+            "off_by": 1.335810621382168e-16,
+            "band": 0.002
+          },
+          {
+            "chain": "robinhood",
+            "token": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+            "reported": 5222417.920317909,
+            "onchain": 5102626.886669314,
+            "off_by": 0.022937848995681884,
+            "via": "balanceOf"
+          }
+        ],
+        "best_off_by": 1.335810621382168e-16,
+        "candidates_considered": 2
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "twaptops",
@@ -3559,7 +5893,47 @@
           "pnl": 551.4464675212263
         }
       ],
-      "rank": 86
+      "rank": 86,
+      "resolved_evm": "0x7041bff783bd081e62fccb6b0073e980550e5d4d",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+            "reported": 2000000.3538656,
+            "onchain": 2000000.3538656002,
+            "off_by": 1.1641530122924961e-16,
+            "band": 0.002
+          },
+          {
+            "chain": "base",
+            "token": "0xb20000000000000000000029440a9564b59129b1",
+            "reported": 20052449.121359136,
+            "onchain": 20052449.121359136,
+            "off_by": 0.0,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 6
+      },
+      "resolved_sol": "HgQifHz2u43RgVuHw2ycatBxvqbcxpMhjx6MbXYVFVn3",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "B1oEzGes1QxVZoxR3abiwAyL4jcPRF2s2ok5Yerrpump",
+            "reported": 20000000,
+            "onchain": 20000000.0,
+            "off_by": 0.0,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 1
+      }
     },
     {
       "handle": "claymorepx",
@@ -3603,7 +5977,39 @@
           "pnl": 13.286777716483257
         }
       ],
-      "rank": 87
+      "rank": 87,
+      "resolved_evm": "0x709874171eb69207327da50026dd5e3457f92edc",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x020bfc650a365f8bb26819deaabf3e21291018b4",
+            "reported": 333924.48235563457,
+            "onchain": 333924.48235563457,
+            "off_by": 0.0,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 1
+      },
+      "resolved_sol": "AkkF7Gs6ssobKWU2pt9ssTkyu1NheKzA7Vija1c7qYPs",
+      "sol_resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "So11111111111111111111111111111111111111112",
+            "reported": 0.815039195,
+            "onchain": 0.81654172,
+            "off_by": 0.0018435002993936168,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.0018435002993936168,
+        "candidates_considered": 87
+      }
     },
     {
       "handle": "Visi235",
@@ -3647,7 +6053,36 @@
           "pnl": 11.952743446378326
         }
       ],
-      "rank": 88
+      "rank": 88,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "4JafciCHuforHqeWqBhK36DMCGbjbMMZRkvZKis74c4s",
+      "sol_resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "7ssJZGFT3twGqeYA1kvpoMWwZYvMZvrMEbjRaWgg46BL",
+            "reported": 12927768.988082813,
+            "onchain": 12927927.523908628,
+            "off_by": 1.2263200708582791e-05,
+            "source": "top20"
+          },
+          {
+            "chain": "solana",
+            "token": "Pren1FvFX6J3E4kXhJuCiAD5aDmGEb7qJRncwA8Lkhw",
+            "reported": 1.080221988,
+            "onchain": 1.187938033,
+            "off_by": 0.09971658251414903,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 1.2263200708582791e-05,
+        "candidates_considered": 98
+      }
     },
     {
       "handle": "The__Solstice",
@@ -3691,7 +6126,47 @@
           "pnl": 46444.35311686033
         }
       ],
-      "rank": 89
+      "rank": 89,
+      "resolved_evm": "0xd1c77a04b87393e98a1220532e72e8f7d0a31c5a",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "base",
+            "token": "0xb2000000000000000000004c27f6523082f41d01",
+            "reported": 12547604.86417369,
+            "onchain": 12814329.606573928,
+            "off_by": 0.021257024371384138,
+            "band": 0.15
+          },
+          {
+            "chain": "bsc",
+            "token": "0x1706f1e06c69f3a8cf33cce179d5d78a5c6f4444",
+            "reported": 9068293.463635402,
+            "onchain": 9068293.463635402,
+            "off_by": 0.0,
+            "via": "balanceOf"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 3
+      },
+      "resolved_sol": "4ugDhHJ8XDXAeABmrNmGffFaLbJb9BkPyiFGVSV9ocwo",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+            "reported": 18954523.321697235,
+            "onchain": 18959011.020666316,
+            "off_by": 0.0002367613731517045,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.0002367613731517045,
+        "candidates_considered": 4
+      }
     },
     {
       "handle": "NotARandomUser",
@@ -3735,7 +6210,28 @@
           "pnl": 21289.284307231974
         }
       ],
-      "rank": 90
+      "rank": 90,
+      "resolved_evm": "0xdce001e4ec11ab58650c51ae9658accbe0f49c48",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+            "reported": 2732277.7496943944,
+            "onchain": 2732277.7496943944,
+            "off_by": 0.0,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 7
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "DopamineFeenFr1",
@@ -3779,7 +6275,42 @@
           "pnl": -18355.3691425309
         }
       ],
-      "rank": 91
+      "rank": 91,
+      "resolved_evm": "0xbdce13a1cadea23a61013fbfb470c7eef4ba9520",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xeeb3d73d4dd44e6e4d957d89492f05d5ccee7777",
+            "reported": 25543784.00065828,
+            "onchain": 25543784.000658285,
+            "off_by": 1.4583940650163307e-16,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 1.4583940650163307e-16,
+        "candidates_considered": 2
+      },
+      "resolved_sol": "EVqxB3F6iUBeWsTpBFQqWwxpqUS8s4NrzgxBvQ2VRbTq",
+      "sol_resolution": {
+        "confidence": "collision",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+            "reported": 10572979.778643,
+            "onchain": 10498915.311294,
+            "off_by": 0.0070050703680156045,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.0070050703680156045,
+        "candidates_considered": 7,
+        "shared_with": [
+          "boosteryting"
+        ]
+      }
     },
     {
       "handle": "Onchainmetrics",
@@ -3823,7 +6354,39 @@
           "pnl": -13699.058798803091
         }
       ],
-      "rank": 92
+      "rank": 92,
+      "resolved_evm": "0xb2e82caa0963fdec2ebe16d452ad2c31d46b894d",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+            "reported": 23940.740734140014,
+            "onchain": 23991.85007880699,
+            "off_by": 0.002134827206665895,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.002134827206665895,
+        "candidates_considered": 5
+      },
+      "resolved_sol": "2MxSnHSRgfEKLe9noU9wZSA3AYR9FnfgdrLefg7wCMC8",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "EkcTa8n14fXcHdfvZqCg72cTCutJnnKb19vcHwKTpump",
+            "reported": 19512363.156987,
+            "onchain": 19512363.156987,
+            "off_by": 0.0,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 4
+      }
     },
     {
       "handle": "boosteryting",
@@ -3867,7 +6430,50 @@
           "pnl": 50217.79611832246
         }
       ],
-      "rank": 93
+      "rank": 93,
+      "resolved_evm": "0x5b30d0e72d624e0717d038a1982c88062c97de9a",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0x6ff45323817d1d53bbb8a8dfba9245ae74057777",
+            "reported": 20057426.734622326,
+            "onchain": 20057426.734622326,
+            "off_by": 0.0,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 1
+      },
+      "resolved_sol": "EVqxB3F6iUBeWsTpBFQqWwxpqUS8s4NrzgxBvQ2VRbTq",
+      "sol_resolution": {
+        "confidence": "collision",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+            "reported": 10450486.019238,
+            "onchain": 10498915.311294,
+            "off_by": 0.004634166484395822,
+            "source": "top20"
+          },
+          {
+            "chain": "solana",
+            "token": "8vGr1eX9vfpootWiUPYa5kYoGx9bTuRy2Xc4dNMrpump",
+            "reported": 37279257.779502,
+            "onchain": 38107916.986745,
+            "off_by": 0.022228425580367677,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.004634166484395822,
+        "candidates_considered": 4,
+        "shared_with": [
+          "DopamineFeenFr1"
+        ]
+      }
     },
     {
       "handle": "jotagezin",
@@ -3911,7 +6517,39 @@
           "pnl": 5789.281609672007
         }
       ],
-      "rank": 94
+      "rank": 94,
+      "resolved_evm": "0x34568cb6bb15afc4d314a88304b93b616dbde77c",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+            "reported": 7313043.409260948,
+            "onchain": 7285183.457904625,
+            "off_by": 0.003809624775513119,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.003809624775513119,
+        "candidates_considered": 3
+      },
+      "resolved_sol": "4hwPamSooBr5JhxHdcEC21HoxN5HUwYR2hGucLPyZAi8",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "EkcTa8n14fXcHdfvZqCg72cTCutJnnKb19vcHwKTpump",
+            "reported": 12553723.194179,
+            "onchain": 12553723.194179,
+            "off_by": 0.0,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 6
+      }
     },
     {
       "handle": "m0f0",
@@ -3955,7 +6593,44 @@
           "pnl": 15864.200029736787
         }
       ],
-      "rank": 95
+      "rank": 95,
+      "resolved_evm": "0x50c0b87bdf73888cc5972a40f060ee8d08e836b2",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+            "reported": 6607274.956782475,
+            "onchain": 6705145.575912992,
+            "off_by": 0.014812554308800279,
+            "band": 0.02
+          },
+          {
+            "chain": "ethereum",
+            "token": "0xa0df17b5ac76ababa36e1450e2cbcd18a620c845",
+            "reported": 1544015.1381194897,
+            "onchain": 1544015.1381194897,
+            "off_by": 0.0,
+            "band": 0.002
+          },
+          {
+            "chain": "robinhood",
+            "token": "0x89da5167eb1a0067f9b3e39a544ef8d4b9c41e18",
+            "reported": 14003370.052046187,
+            "onchain": 14771135.920788396,
+            "off_by": 0.0548272212966351,
+            "via": "balanceOf"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 3
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "Samisa_btc",
@@ -3999,7 +6674,39 @@
           "pnl": -1189.5301496899467
         }
       ],
-      "rank": 96
+      "rank": 96,
+      "resolved_evm": "0xe0d5fd7c7f74283707470328c6b68c63d252632e",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x62c71cd34a52c30d894419cbcc55db2afa8032ea",
+            "reported": 389564.1948330972,
+            "onchain": 392978.2343918574,
+            "off_by": 0.008763740621036475,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.008763740621036475,
+        "candidates_considered": 5
+      },
+      "resolved_sol": "FS6zZg5zHTfwhwdqWBx7tmhZFmVnU8fAu9TYBFYoMGBg",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "5HoWa7E5ZJBMPzrvu1WXKjicpqQTXkaTKMVC9Je8pump",
+            "reported": 26494007.408872,
+            "onchain": 26494007.408872,
+            "off_by": 0.0,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 2
+      }
     },
     {
       "handle": "Dxranteth",
@@ -4043,7 +6750,45 @@
           "pnl": -197.52807716004557
         }
       ],
-      "rank": 97
+      "rank": 97,
+      "resolved_evm": "0xf24022ba0fea5926d30fba8fece6d7a852732989",
+      "resolution": {
+        "confidence": "collision",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xbeea1d618e533a387d941f58a7d4c9b7bd377777",
+            "reported": 8106262.176521996,
+            "onchain": 7238185.095006001,
+            "off_by": 0.10708722005441534,
+            "band": 0.15
+          }
+        ],
+        "best_off_by": 0.10708722005441534,
+        "candidates_considered": 5,
+        "shared_with": [
+          "stigstigstig_"
+        ]
+      },
+      "resolved_sol": "C481ZKiw4TZGs4EjNkhm6TB7s17swzmqAmCcNm73vGnW",
+      "sol_resolution": {
+        "confidence": "collision",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "8rKpTCa31LCSqd93x1KDwgL4J1SzmZz4JmQ1fySYpump",
+            "reported": 569818.54181,
+            "onchain": 569818.54181,
+            "off_by": 0.0,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 44,
+        "shared_with": [
+          "GuavaGuy2001"
+        ]
+      }
     },
     {
       "handle": "kcpx7",
@@ -4087,7 +6832,28 @@
           "pnl": 13.991712030874805
         }
       ],
-      "rank": 98
+      "rank": 98,
+      "resolved_evm": "0x5bdbe264f769380549625e4e04b613ab84982101",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "ethereum",
+            "token": "0xfd0bb211d479710dfa01d3d98751767f51edb2d9",
+            "reported": 100000000000,
+            "onchain": 100364631567.6838,
+            "off_by": 0.0036463156768380737,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.0036463156768380737,
+        "candidates_considered": 7
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "metaversejoji",
@@ -4131,7 +6897,44 @@
           "pnl": 11841.249450391608
         }
       ],
-      "rank": 99
+      "rank": 99,
+      "resolved_evm": "0x1b72ee84b5675809d3b061a0046798cd61b31de1",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0xe8ffd7e24187f72afb08d75b1bb13088a989a791",
+            "reported": 23951307.92371983,
+            "onchain": 23951307.92371983,
+            "off_by": 0.0,
+            "band": 0.02
+          },
+          {
+            "chain": "robinhood",
+            "token": "0x0762c1708f0d23f86b29d6b857121ff7df357506",
+            "reported": 18555191.311602972,
+            "onchain": 18555191.311602972,
+            "off_by": 0.0,
+            "band": 0.002
+          },
+          {
+            "chain": "robinhood",
+            "token": "0xcacb0e9caccee63ec4d82952e561a291c68bcb68",
+            "reported": 4192038.4641692443,
+            "onchain": 4810832.676801355,
+            "off_by": 0.14761176881394375,
+            "via": "balanceOf"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 2
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "Iknowwhyy",
@@ -4175,7 +6978,36 @@
           "pnl": 7681.63622646185
         }
       ],
-      "rank": 100
+      "rank": 100,
+      "resolved_evm": "0x1c7a74cd8a4944aacfd61716e874e0f1bf4df38a",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xfe189e97832da1573e4e4ff034f4ffc3a15c7777",
+            "reported": 10005229.6896282,
+            "onchain": 10005229.6896282,
+            "off_by": 0.0,
+            "band": 0.002
+          },
+          {
+            "chain": "bsc",
+            "token": "0xe9bc5c6a86caa44fd7b469bf3cc7c563e4f77777",
+            "reported": 14939010.843068235,
+            "onchain": 14508416.978595318,
+            "off_by": 0.028823452168033854,
+            "via": "balanceOf"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 2
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "admiralfinest",
@@ -4219,7 +7051,39 @@
           "pnl": -1103.77961384837
         }
       ],
-      "rank": 101
+      "rank": 101,
+      "resolved_evm": "0x1949d393f568a54ed025bd2ee8ae6b7502fa798a",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb0c2ab5af4028461ace3f6e1c33a4ee1404e7777",
+            "reported": 21942272.609109294,
+            "onchain": 21942272.609109294,
+            "off_by": 0.0,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 3
+      },
+      "resolved_sol": "DrXBn8eeRZXsc1h7qsj4V1W38at1sEynyZNC8mVrbuV5",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "Ez6gPDiNK7VtGe5o9vnhDHJq9QPHvEYmSo8teu8mpump",
+            "reported": 110870219.580115,
+            "onchain": 110870219.580115,
+            "off_by": 0.0,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 1
+      }
     },
     {
       "handle": "rasmr",
@@ -4263,7 +7127,36 @@
           "pnl": -35298.51932064162
         }
       ],
-      "rank": 102
+      "rank": 102,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "9CNyLECt2j8tnDhqxtjYk5HUhZ2b8Nwnyb7sfYN7vND2",
+      "sol_resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "GPzpoXpD74E2C4CJNayuoyBqPQJEsPtdse3nhntrpump",
+            "reported": 26549294.371624,
+            "onchain": 26549294.371624,
+            "off_by": 0.0,
+            "source": "top20"
+          },
+          {
+            "chain": "solana",
+            "token": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+            "reported": 779838.15771,
+            "onchain": 779838.15771,
+            "off_by": 0.0,
+            "source": "balanceOf"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 8
+      }
     },
     {
       "handle": "justtesting",
@@ -4307,7 +7200,44 @@
           "pnl": 2.4839093033640003
         }
       ],
-      "rank": 103
+      "rank": 103,
+      "resolved_evm": "0xdb5cb33ccaf4a5c7f509b2e80f0ee9ed67861942",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+            "reported": 4222597.406921343,
+            "onchain": 4222597.406921343,
+            "off_by": 0.0,
+            "band": 0.02
+          },
+          {
+            "chain": "robinhood",
+            "token": "0x98096d17e191b3da1d5f99a6d7b3584351b11e18",
+            "reported": 7653231.3521818565,
+            "onchain": 7670483.730117687,
+            "off_by": 0.0022542606046937323,
+            "via": "balanceOf"
+          },
+          {
+            "chain": "ethereum",
+            "token": "0xfd0bb211d479710dfa01d3d98751767f51edb2d9",
+            "reported": 18000000000,
+            "onchain": 18000000000.0,
+            "off_by": 0.0,
+            "via": "balanceOf"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 5
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "ogle",
@@ -4351,7 +7281,44 @@
           "pnl": 7726.7180155988235
         }
       ],
-      "rank": 104
+      "rank": 104,
+      "resolved_evm": "0x1bcc5f67cd17e13770f199fa03bc043b0cde1143",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+            "reported": 2245190.2145993956,
+            "onchain": 2245331.0710718897,
+            "off_by": 6.27369884200272e-05,
+            "band": 0.002
+          },
+          {
+            "chain": "robinhood",
+            "token": "0xa0e67be79118704a35e7d4b20c3ec4df36ef6e10",
+            "reported": 9633785.238245746,
+            "onchain": 9633785.238245746,
+            "off_by": 0.0,
+            "band": 0.002
+          },
+          {
+            "chain": "robinhood",
+            "token": "0x5173b8ea6923c2d40267890d45c46a3480954773",
+            "reported": 2968679.5463180807,
+            "onchain": 2968679.5463180807,
+            "off_by": 0.0,
+            "band": 0.15
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 5
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "midcurver",
@@ -4395,7 +7362,47 @@
           "pnl": 64614.60968543675
         }
       ],
-      "rank": 105
+      "rank": 105,
+      "resolved_evm": "0xbed255d35491adc469a2d89d1d23e1508ba58d50",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb0c2ab5af4028461ace3f6e1c33a4ee1404e7777",
+            "reported": 1870884.1495165399,
+            "onchain": 1870884.1495165399,
+            "off_by": 0.0,
+            "band": 0.002
+          },
+          {
+            "chain": "robinhood",
+            "token": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+            "reported": 3070685.571564331,
+            "onchain": 2903879.9001715034,
+            "off_by": 0.054321964103882577,
+            "via": "balanceOf"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 2
+      },
+      "resolved_sol": "Ekva8dVweVY5S3RV8MB11saFfeVcvpaxB5KmuSW3eecv",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump",
+            "reported": 3306372.931789,
+            "onchain": 3306372.931789,
+            "off_by": 0.0,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 27
+      }
     },
     {
       "handle": "CryptoKaleo",
@@ -4439,7 +7446,44 @@
           "pnl": 9222.142147241424
         }
       ],
-      "rank": 106
+      "rank": 106,
+      "resolved_evm": "0xd770b3db81dd31afb3d294496d66509302f3665e",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x51fb76be80ab6daaa345d818f4e06441816b4fea",
+            "reported": 19362047.505505335,
+            "onchain": 19365599.98354291,
+            "off_by": 0.00018347636202044353,
+            "band": 0.02
+          },
+          {
+            "chain": "robinhood",
+            "token": "0xedaee44320107caa714baaec486261a87f27022d",
+            "reported": 15021735.860048307,
+            "onchain": 15853087.173070803,
+            "off_by": 0.055343225361427884,
+            "band": 0.15
+          },
+          {
+            "chain": "robinhood",
+            "token": "0x7fe995a80075df3dc8ae11a9b82c7fe4202cd87f",
+            "reported": 27660615.568500157,
+            "onchain": 27671851.815838307,
+            "off_by": 0.00040621826764208056,
+            "via": "balanceOf"
+          }
+        ],
+        "best_off_by": 0.00018347636202044353,
+        "candidates_considered": 5
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "cryptoolin",
@@ -4455,7 +7499,17 @@
       "twitter": "",
       "verified": false,
       "holdings": [],
-      "rank": 107
+      "rank": 107,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "no-evm-holdings",
+        "matches": []
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "stigstigstig_",
@@ -4499,7 +7553,42 @@
           "pnl": 13262.432829346699
         }
       ],
-      "rank": 108
+      "rank": 108,
+      "resolved_evm": "0xf24022ba0fea5926d30fba8fece6d7a852732989",
+      "resolution": {
+        "confidence": "collision",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xbeea1d618e533a387d941f58a7d4c9b7bd377777",
+            "reported": 7198533.395844398,
+            "onchain": 7238185.095006001,
+            "off_by": 0.0055083024528987294,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.0055083024528987294,
+        "candidates_considered": 2,
+        "shared_with": [
+          "Dxranteth"
+        ]
+      },
+      "resolved_sol": "3Vu5WEu1f69RL7UbikgDMjFiA2uvfuzgK3hE8UW2zCTv",
+      "sol_resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "So11111111111111111111111111111111111111112",
+            "reported": 0.117163387,
+            "onchain": 0.117385975,
+            "off_by": 0.0018998085127055065,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.0018998085127055065,
+        "candidates_considered": 146
+      }
     },
     {
       "handle": "0xangeryy",
@@ -4543,7 +7632,47 @@
           "pnl": -27849.19604991356
         }
       ],
-      "rank": 109
+      "rank": 109,
+      "resolved_evm": "0x340e669fc0ccfa36b29a6cbdfcc919570643b7fc",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "base",
+            "token": "0xb2000000000000000000004c27f6523082f41d01",
+            "reported": 6289126.740930357,
+            "onchain": 6289126.740930358,
+            "off_by": 1.4808456133572958e-16,
+            "band": 0.15
+          },
+          {
+            "chain": "robinhood",
+            "token": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+            "reported": 745601.20675094,
+            "onchain": 745601.20675094,
+            "off_by": 0.0,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 5
+      },
+      "resolved_sol": "9MtT6j8yNyiHucYMoLDaafpFD2ErrqEnWJLrTbGUxXbE",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "BQYc6c5hivsPrEEmTxBVjGT16setk2gmPvbv7YBxpump",
+            "reported": 8505631.487227,
+            "onchain": 8505631.487227,
+            "off_by": 0.0,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 2
+      }
     },
     {
       "handle": "vydamo_",
@@ -4587,7 +7716,47 @@
           "pnl": 1127.1674377199997
         }
       ],
-      "rank": 110
+      "rank": 110,
+      "resolved_evm": "0x3efa635740d9bdf308747fd9f1a7867073391d39",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb0c2ab5af4028461ace3f6e1c33a4ee1404e7777",
+            "reported": 19004988.254118647,
+            "onchain": 19004988.254118644,
+            "off_by": 1.9601644834769058e-16,
+            "band": 0.002
+          },
+          {
+            "chain": "robinhood",
+            "token": "0x862cdccb67c8a22fdb247d09a08b1dad09447777",
+            "reported": 5000000,
+            "onchain": 5000000.0,
+            "off_by": 0.0,
+            "via": "balanceOf"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 2
+      },
+      "resolved_sol": "219EBRaySVBf4wxAD5CAkjX6NRjDhkQMm5AE1okxAe3d",
+      "sol_resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "DLGRpmkMGr7J4KD1xR5x2XjaGeQH64PLFQkyxNNSpump",
+            "reported": 6884274.698568,
+            "onchain": 7018917.300033,
+            "off_by": 0.019557993740866687,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.019557993740866687,
+        "candidates_considered": 10
+      }
     },
     {
       "handle": "TheGasChad",
@@ -4631,7 +7800,36 @@
           "pnl": 4263.471640263028
         }
       ],
-      "rank": 111
+      "rank": 111,
+      "resolved_evm": "0x514cd39ac9c8d3007567827600ff0b83c3a6caa3",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x45242320dbb855eea8fd36804c6487e10e97fcf9",
+            "reported": 1359926.5753026393,
+            "onchain": 1359926.5753026395,
+            "off_by": 1.7120824600552813e-16,
+            "band": 0.02
+          },
+          {
+            "chain": "robinhood",
+            "token": "0x2e8c31162b855a2ffa90f6f8634643ad6f111e18",
+            "reported": 3658401.2458975376,
+            "onchain": 3641371.273145494,
+            "off_by": 0.004655031421482431,
+            "via": "balanceOf"
+          }
+        ],
+        "best_off_by": 1.7120824600552813e-16,
+        "candidates_considered": 8
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "alpinestar17",
@@ -4675,7 +7873,39 @@
           "pnl": 9329.875069441368
         }
       ],
-      "rank": 112
+      "rank": 112,
+      "resolved_evm": "0x124cef73f47627f3f919bbab725b5fe924445d69",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x85a574f2ff0795685f58d1d7b0d4b51f148ac489",
+            "reported": 1112280.268244,
+            "onchain": 1112280.268244,
+            "off_by": 0.0,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 2
+      },
+      "resolved_sol": "Ga4qb3YHybjDjAmhYwrR43yzsUkiWRgSbTGHGJGwVJ6S",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+            "reported": 1702085.038612,
+            "onchain": 1702085.038612,
+            "off_by": 0.0,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 3
+      }
     },
     {
       "handle": "_keephungry",
@@ -4719,7 +7949,28 @@
           "pnl": -0.15258502893500045
         }
       ],
-      "rank": 113
+      "rank": 113,
+      "resolved_evm": "0x314d27a474d7a98bd182e20bb8a0163936fd1dc9",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0x63a26c936abdd4040c07306b120bc3235e3a7777",
+            "reported": 5000,
+            "onchain": 5000.0,
+            "off_by": 0.0,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 12
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "ArtofConviction",
@@ -4763,7 +8014,28 @@
           "pnl": -4931.954364320384
         }
       ],
-      "rank": 114
+      "rank": 114,
+      "resolved_evm": "0x33e5192b74e559c7433fe02eb54599e9b6731341",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xb0c2ab5af4028461ace3f6e1c33a4ee1404e7777",
+            "reported": 10377426.384504322,
+            "onchain": 10200000.2421969,
+            "off_by": 0.01709731639940667,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.01709731639940667,
+        "candidates_considered": 4
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "GuavaGuy2001",
@@ -4807,7 +8079,50 @@
           "pnl": -3645.9159013828366
         }
       ],
-      "rank": 115
+      "rank": 115,
+      "resolved_evm": "0x595d70977dff3c841df0bc0138ce89f80c7c9423",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xbeea1d618e533a387d941f58a7d4c9b7bd377777",
+            "reported": 6234702.018802312,
+            "onchain": 6183489.889513124,
+            "off_by": 0.0082140460177159,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.0082140460177159,
+        "candidates_considered": 1
+      },
+      "resolved_sol": "C481ZKiw4TZGs4EjNkhm6TB7s17swzmqAmCcNm73vGnW",
+      "sol_resolution": {
+        "confidence": "collision",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "4N4DnNo3qpPks9aQCkcWkzoir8tnvT6diS4TnnZibonk",
+            "reported": 8589302.167232752,
+            "onchain": 8589302.167232752,
+            "off_by": 0.0,
+            "source": "das"
+          },
+          {
+            "chain": "solana",
+            "token": "4tR7PbUjuB45RSb1TkXGpCKVTSEm6PRpTVdj6bYtpump",
+            "reported": 27364730.192741,
+            "onchain": 27364730.192741,
+            "off_by": 0.0,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 11,
+        "shared_with": [
+          "Dxranteth"
+        ]
+      }
     },
     {
       "handle": "BtheBezel",
@@ -4851,7 +8166,39 @@
           "pnl": -553.5368109462266
         }
       ],
-      "rank": 116
+      "rank": 116,
+      "resolved_evm": "0x15c6a76136b597c7896dca6da7b3319daffc987e",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "ethereum",
+            "token": "0x3b48f83e525268c08426aaa337c3f08f501c824d",
+            "reported": 30428149.87553799,
+            "onchain": 30428149.875537995,
+            "off_by": 1.224290768153727e-16,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 1.224290768153727e-16,
+        "candidates_considered": 2
+      },
+      "resolved_sol": "HWYpE693cw8AWxHSynrHhUsKDbfzubAFYWpTcMZdNWKR",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "7kLWitc1sMjXvum9sT5MQGoVfd6ZG3cZjg6uY56Spump",
+            "reported": 30181131.234881,
+            "onchain": 30181131.234881,
+            "off_by": 0.0,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 5
+      }
     },
     {
       "handle": "trencHog8",
@@ -4895,7 +8242,47 @@
           "pnl": 3602.3828249527564
         }
       ],
-      "rank": 117
+      "rank": 117,
+      "resolved_evm": "0xd0e3bd0123b0fd1d67d4795c032d44f5ca045be2",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "bsc",
+            "token": "0xbeea1d618e533a387d941f58a7d4c9b7bd377777",
+            "reported": 6754510.388842473,
+            "onchain": 6754913.184279543,
+            "off_by": 5.9633550602854065e-05,
+            "band": 0.002
+          },
+          {
+            "chain": "bsc",
+            "token": "0xf49725118cb0707b8706ffffe895f3ab16da7777",
+            "reported": 12856909.453434661,
+            "onchain": 12856909.453434663,
+            "off_by": 1.4487503050224566e-16,
+            "band": 0.15
+          }
+        ],
+        "best_off_by": 1.4487503050224566e-16,
+        "candidates_considered": 4
+      },
+      "resolved_sol": "CiDemZqZiVY4fx8Vhq8PB4YUyq6QSet7zqB1x3UNiPZA",
+      "sol_resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump",
+            "reported": 1346450.164867,
+            "onchain": 1333186.133248,
+            "off_by": 0.009851112180085933,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.009851112180085933,
+        "candidates_considered": 27
+      }
     },
     {
       "handle": "Chubbicorn230",
@@ -4939,7 +8326,39 @@
           "pnl": -15177.42726502891
         }
       ],
-      "rank": 118
+      "rank": 118,
+      "resolved_evm": "0xbdc199a9953b7465b0278dd7d19da611d3a5ad99",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+            "reported": 3826537.6226141085,
+            "onchain": 3799776.7345574154,
+            "off_by": 0.006993499266423354,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.006993499266423354,
+        "candidates_considered": 1
+      },
+      "resolved_sol": "31nAKhDacwtF7WJAfpNBY5yziuboox6zcLhdmMRTNdyW",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+            "reported": 2002963.75046,
+            "onchain": 2002963.75046,
+            "off_by": 0.0,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 14
+      }
     },
     {
       "handle": "enci",
@@ -4983,7 +8402,39 @@
           "pnl": -1003.2601138254593
         }
       ],
-      "rank": 119
+      "rank": 119,
+      "resolved_evm": "0xe55b5829a06eb333118eaacc66edfc4796cf181b",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x85856f025bf13b8fd2aae2f6da458318744f1e18",
+            "reported": 613462.4514738922,
+            "onchain": 613462.4514738922,
+            "off_by": 0.0,
+            "band": 0.002
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 6
+      },
+      "resolved_sol": "FFmkno7AYb9vGr4wgQ7J1pymnQvZqtTzWSYSSweLTVvi",
+      "sol_resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "46vV3ZpFNLZn1CDRYnAvqPsdW5ejEYn9GK9kPcZFpump",
+            "reported": 10964840.477376,
+            "onchain": 11040689.415196,
+            "off_by": 0.006917468427972243,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.006917468427972243,
+        "candidates_considered": 9
+      }
     },
     {
       "handle": "Bull_Path",
@@ -5027,7 +8478,39 @@
           "pnl": 23754.234053546916
         }
       ],
-      "rank": 120
+      "rank": 120,
+      "resolved_evm": "0x2aa9da61eff59037eb661e2784eb405673c19263",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0x62c71cd34a52c30d894419cbcc55db2afa8032ea",
+            "reported": 11152814.130664518,
+            "onchain": 11176752.900625147,
+            "off_by": 0.0021464331495321424,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.0021464331495321424,
+        "candidates_considered": 4
+      },
+      "resolved_sol": "F11mt2PsYTR7RF7hzfvFyeFbWREiCS3soa5pGbPX88Lb",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+            "reported": 6895262.639907,
+            "onchain": 6920285.389055,
+            "off_by": 0.003628976944718313,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.003628976944718313,
+        "candidates_considered": 4
+      }
     },
     {
       "handle": "Altcoinist",
@@ -5071,7 +8554,28 @@
           "pnl": 26518.334154123204
         }
       ],
-      "rank": 121
+      "rank": 121,
+      "resolved_evm": "0x823b6b8da270906f0a231223e46edb5bdea3ff13",
+      "resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "base",
+            "token": "0xa4a2e2ca3fbfe21aed83471d28b6f65a233c6e00",
+            "reported": 1000000,
+            "onchain": 1000000.0,
+            "off_by": 0.0,
+            "band": 0.15
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 6
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "dtrain22k",
@@ -5115,7 +8619,28 @@
           "pnl": 2229.8933240650335
         }
       ],
-      "rank": 122
+      "rank": 122,
+      "resolved_evm": "0xb73c06042763c80285b431671ae2b5620a3174dd",
+      "resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0xe0eba1b76b73be7bfa7716b6ca96f724930e2263",
+            "reported": 12128298.87477817,
+            "onchain": 12058724.916477894,
+            "off_by": 0.005736497675280801,
+            "band": 0.02
+          }
+        ],
+        "best_off_by": 0.005736497675280801,
+        "candidates_considered": 5
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "kch3n",
@@ -5159,7 +8684,44 @@
           "pnl": 27274.749427626648
         }
       ],
-      "rank": 123
+      "rank": 123,
+      "resolved_evm": "0x64ddc89b15e41cbd5c8693bc21518b69275fffea",
+      "resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "robinhood",
+            "token": "0xe8ffd7e24187f72afb08d75b1bb13088a989a791",
+            "reported": 5082392.469201903,
+            "onchain": 5083833.868785099,
+            "off_by": 0.0002836065085352633,
+            "band": 0.002
+          },
+          {
+            "chain": "base",
+            "token": "0xb200000000000000000000503d889fdcbe48b801",
+            "reported": 11791181.420282422,
+            "onchain": 11791181.420282422,
+            "off_by": 0.0,
+            "band": 0.002
+          },
+          {
+            "chain": "robinhood",
+            "token": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
+            "reported": 31.045516864797584,
+            "onchain": 31.045516864797584,
+            "off_by": 0.0,
+            "via": "balanceOf"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 4
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "smol_intern",
@@ -5203,7 +8765,17 @@
           "pnl": 26663.088697503394
         }
       ],
-      "rank": 124
+      "rank": 124,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "iruletrenches",
@@ -5247,7 +8819,17 @@
           "pnl": 31074.036806583368
         }
       ],
-      "rank": 125
+      "rank": 125,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "kingofgotham",
@@ -5291,7 +8873,17 @@
           "pnl": 21.606940203374023
         }
       ],
-      "rank": 126
+      "rank": 126,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "Eagle_0X",
@@ -5335,7 +8927,28 @@
           "pnl": -100.72492869275332
         }
       ],
-      "rank": 127
+      "rank": 127,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "ARL8jqAyxKQaa79c2wikahmzfNNURRQTebiQXtXsX6QR",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "Agmu8Xgn7rU4zFv4DMPrEBhYDdPsmiEG5hCiYyvSpump",
+            "reported": 445774.973698,
+            "onchain": 445774.973698,
+            "off_by": 0.0,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 9
+      }
     },
     {
       "handle": "carlwheezor",
@@ -5379,7 +8992,17 @@
           "pnl": -947.0947366610039
         }
       ],
-      "rank": 128
+      "rank": 128,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "MEADGod",
@@ -5423,7 +9046,17 @@
           "pnl": 7625.107955139459
         }
       ],
-      "rank": 129
+      "rank": 129,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "Conviction",
@@ -5467,7 +9100,17 @@
           "pnl": -30.715453661915674
         }
       ],
-      "rank": 130
+      "rank": 130,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "CoinGurruu",
@@ -5511,7 +9154,28 @@
           "pnl": 1399.459440855791
         }
       ],
-      "rank": 131
+      "rank": 131,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "AmcogXj8YXRuY51BmAkVX2cCRmo8azT9qFVpYdzvWa8U",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "HeC2xWqGT9gPfdvaMuqxPo2bUQ1XgY5wRtnrwTEHpump",
+            "reported": 1246957.43794,
+            "onchain": 1246957.43794,
+            "off_by": 0.0,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 14
+      }
     },
     {
       "handle": "LehmanFarters",
@@ -5555,7 +9219,17 @@
           "pnl": -159.40102062076133
         }
       ],
-      "rank": 132
+      "rank": 132,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "wileEcoyote",
@@ -5599,7 +9273,28 @@
           "pnl": 13.4569616815157
         }
       ],
-      "rank": 133
+      "rank": 133,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "FYXAPs79gknkGfME6tt9J1YwJkpWKERJKJqQ311kjP5c",
+      "sol_resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "So11111111111111111111111111111111111111112",
+            "reported": 0.530678897,
+            "onchain": 0.529009663,
+            "off_by": 0.0031454689633156354,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.0031454689633156354,
+        "candidates_considered": 68
+      }
     },
     {
       "handle": "s226",
@@ -5643,7 +9338,36 @@
           "pnl": -8619.885749639889
         }
       ],
-      "rank": 134
+      "rank": 134,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "4zeVXCXXr4dZ14GqKUZLPFj6adAKd844xGVM92QwfYJZ",
+      "sol_resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "MsGDybWRSNdNXkdDZhEksgzugT5CbVWUG2wkhwgpump",
+            "reported": 24817615.278748,
+            "onchain": 24817615.278748,
+            "off_by": 0.0,
+            "source": "top20"
+          },
+          {
+            "chain": "solana",
+            "token": "89gZQFtEe3RJctXghdbEmht8SV2vQvcN4DNyjmappump",
+            "reported": 21171836.974148,
+            "onchain": 21171836.974148,
+            "off_by": 0.0,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 7
+      }
     },
     {
       "handle": "0xdetweiler",
@@ -5687,7 +9411,28 @@
           "pnl": 16355.396578121117
         }
       ],
-      "rank": 135
+      "rank": 135,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "GZetT3iRmhuzuT1gkSk69MXMe8hRJZJGz1PPdKW1J2vq",
+      "sol_resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+            "reported": 11985879.347462744,
+            "onchain": 12409474.227193672,
+            "off_by": 0.03534115999762656,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.03534115999762656,
+        "candidates_considered": 5
+      }
     },
     {
       "handle": "slurptoshi_",
@@ -5731,7 +9476,36 @@
           "pnl": 24983.759492905356
         }
       ],
-      "rank": 136
+      "rank": 136,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "555NCk2uGgz1PU1cTiVUufTa2RnPftJR5pAht6U6cART",
+      "sol_resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "7hGgx1VtNTj193fFXXuMEkp1MRV6JbWYgMBhHRYxaxu2",
+            "reported": 15074589.10231306,
+            "onchain": 15074589.10231306,
+            "off_by": 0.0,
+            "source": "top20"
+          },
+          {
+            "chain": "solana",
+            "token": "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump",
+            "reported": 500000.218308,
+            "onchain": 500000.218308,
+            "off_by": 0.0,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 82
+      }
     },
     {
       "handle": "heeshilio",
@@ -5775,7 +9549,17 @@
           "pnl": 18072.32197140071
         }
       ],
-      "rank": 137
+      "rank": 137,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "gundam",
@@ -5819,7 +9603,17 @@
           "pnl": 40553.34363332778
         }
       ],
-      "rank": 138
+      "rank": 138,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "paidinfullintel",
@@ -5863,7 +9657,17 @@
           "pnl": 10128.981446400026
         }
       ],
-      "rank": 139
+      "rank": 139,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "lizzerd",
@@ -5907,7 +9711,28 @@
           "pnl": -13550.863392849058
         }
       ],
-      "rank": 140
+      "rank": 140,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "GsVfkZAoTLCCHtWN54kjaWw9dDXyTLY1MzJeEck9KpCo",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump",
+            "reported": 11396997.556915,
+            "onchain": 11397108.939866,
+            "off_by": 9.773008236991768e-06,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 9.773008236991768e-06,
+        "candidates_considered": 7
+      }
     },
     {
       "handle": "cryptojuggler3",
@@ -5951,7 +9776,17 @@
           "pnl": 18174.82986989657
         }
       ],
-      "rank": 141
+      "rank": 141,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "",
+      "sol_resolution": {
+        "confidence": "no-sol-holdings",
+        "matches": []
+      }
     },
     {
       "handle": "BitmanTW",
@@ -5995,7 +9830,28 @@
           "pnl": 34691.94723626166
         }
       ],
-      "rank": 142
+      "rank": 142,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "4vER1GJQs73HtN9oYRswHZV4PSe2dvWQ8NLFoDhXeZjm",
+      "sol_resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+            "reported": 1981024.644419927,
+            "onchain": 1983118.926511393,
+            "off_by": 0.001057171144924978,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.001057171144924978,
+        "candidates_considered": 32
+      }
     },
     {
       "handle": "disappearance839",
@@ -6039,7 +9895,28 @@
           "pnl": 946.7942025299376
         }
       ],
-      "rank": 143
+      "rank": 143,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "H328chqTXpPmPZQeVDQykuDWqW5uptSV5hyQsd5hp5sr",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "C4j7kPx9PqDnfvxe2uycJQRTAeyGwmU4DyGf21Xgpump",
+            "reported": 3839837.460162,
+            "onchain": 3839837.460162,
+            "off_by": 0.0,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 23
+      }
     },
     {
       "handle": "SpicyPeruvian_",
@@ -6083,7 +9960,28 @@
           "pnl": 14904.054093667712
         }
       ],
-      "rank": 144
+      "rank": 144,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "DxFxvk9725aYNwgSGakh2p1S5UXFb5ozhbcoHAyEq1TF",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "Hos282xmdMJHwMjhni91fNqdjDsgWjgSckxuGc1Bpump",
+            "reported": 19833071.355175,
+            "onchain": 19833071.355175,
+            "off_by": 0.0,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 4
+      }
     },
     {
       "handle": "sssslashhhhhhh",
@@ -6127,7 +10025,28 @@
           "pnl": -385.1049371016992
         }
       ],
-      "rank": 145
+      "rank": 145,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "6DAhR2WTA3RahXwcJM17TcwM8bJ5mapp2MRdcioamduC",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+            "reported": 224381.20543,
+            "onchain": 224289.164959,
+            "off_by": 0.00041019688268288847,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.00041019688268288847,
+        "candidates_considered": 23
+      }
     },
     {
       "handle": "ineedtowin",
@@ -6171,7 +10090,28 @@
           "pnl": -6111.10342713259
         }
       ],
-      "rank": 146
+      "rank": 146,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "AKg8Z5MfUUZsrM2xVzRHVzuNWigzi1C5aHKHED9XNpGs",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "37WhvcVyK6Mzk1oUmqRoS5zbcdZKhrxcU9Ry1vtBoR94",
+            "reported": 9304647.438365,
+            "onchain": 9304647.438365,
+            "off_by": 0.0,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 5
+      }
     },
     {
       "handle": "mantis_213",
@@ -6215,7 +10155,28 @@
           "pnl": 6243.610084091713
         }
       ],
-      "rank": 147
+      "rank": 147,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "F1a7cR49s7VsKz8XGanFBfsbNE2M91hgKkkDhDjv44w6",
+      "sol_resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+            "reported": 1691503.038217189,
+            "onchain": 1698027.567479921,
+            "off_by": 0.003857237684662241,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.003857237684662241,
+        "candidates_considered": 34
+      }
     },
     {
       "handle": "Clanker_Crypto",
@@ -6259,7 +10220,28 @@
           "pnl": -113.5534838914799
         }
       ],
-      "rank": 148
+      "rank": 148,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "no-evm-holdings",
+        "matches": []
+      },
+      "resolved_sol": "FydJGoYQ8PHjweJtvLwsgiYhGzdd2Jx1Wc3RyMYXTsS7",
+      "sol_resolution": {
+        "confidence": "ambiguous",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "7UuqhWmoMXQfrwGLTK9Yf4My9ZPH3ZEyWCwNu8LNpump",
+            "reported": 81967.213114,
+            "onchain": 81967.213114,
+            "off_by": 0.0,
+            "source": "das"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 68
+      }
     },
     {
       "handle": "EricCryptoman",
@@ -6303,7 +10285,28 @@
           "pnl": -15834.20727361523
         }
       ],
-      "rank": 149
+      "rank": 149,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "2hiaWps9HzCB1SYCfweLaqCSqFtHfQ4ajQqiyPefKDsk",
+      "sol_resolution": {
+        "confidence": "high-candidate",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump",
+            "reported": 19097755.485091,
+            "onchain": 19097755.485091,
+            "off_by": 0.0,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 4
+      }
     },
     {
       "handle": "clewguo",
@@ -6347,7 +10350,38 @@
           "pnl": 39067.18941641472
         }
       ],
-      "rank": 150
+      "rank": 150,
+      "resolved_evm": "",
+      "resolution": {
+        "confidence": "unresolved",
+        "matches": []
+      },
+      "resolved_sol": "DcbxVEezcXbCPiZKhCU3ZHeYXBfKeQxnDfCMPJ6vhUoo",
+      "sol_resolution": {
+        "confidence": "confirmed",
+        "matches": [
+          {
+            "chain": "solana",
+            "token": "Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump",
+            "reported": 5000000,
+            "onchain": 5000076.926821,
+            "off_by": 1.5385364199988543e-05,
+            "source": "das"
+          },
+          {
+            "chain": "solana",
+            "token": "7n8kRipxAQBfpGQtcGA2AbkM2HASSVCzqZ5F3QEopump",
+            "reported": 21333177.863513,
+            "onchain": 21333177.863513,
+            "off_by": 0.0,
+            "source": "top20"
+          }
+        ],
+        "best_off_by": 0.0,
+        "candidates_considered": 22
+      }
     }
-  ]
+  ],
+  "resolved_at": 1788161345,
+  "sol_resolved_at": 1788163153
 }
