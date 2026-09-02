@@ -5,6 +5,7 @@ import Link from "next/link";
 import SearchBar from "@/components/SearchBar";
 import TraderCard from "@/components/TraderCard";
 import TransfersTable from "@/components/TransfersTable";
+import Performance from "@/components/Performance";
 import type { LookupResult } from "@/lib/types";
 import { usd } from "@/lib/format";
 
@@ -126,6 +127,10 @@ export default function Home() {
             evmWallet={data.evmWallet}
             solWallet={data.solWallet}
           />
+
+          {/* Profit & loss, from the standalone API. Only rendered for a known handle —
+              it works off the trader's full trade history, not a raw address. */}
+          {data.trader?.handle && <Performance handle={data.trader.handle} />}
 
           <div className="flex flex-wrap items-center gap-3 text-xs text-mute">
             <span>{data.transfers.length} transfers · resolved via {data.resolvedVia}</span>
